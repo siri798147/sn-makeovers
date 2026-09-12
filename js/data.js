@@ -15,6 +15,99 @@ const SN_DATA = {
     serviceAreas: 'Available for on-location & destination events across Telangana & Andhra Pradesh'
   },
 
+  
+  videos: [
+    {
+      id: "Cz6Dg0jpi1D",
+      title: "Bridal & Event Glam Makeover",
+      category: "bridal",
+      categoryLabel: "Bridal Glam",
+      caption: "Flawless HD radiant bridal glow and elegant styling for grand celebrations.",
+      videoSrc: "assets/videos/Cz6Dg0jpi1D.mp4",
+      poster: "assets/thumbnails/Cz6Dg0jpi1D.jpg",
+      tag: "Bridal Signature"
+    },
+    {
+      id: "C0DZDd-PiN_",
+      title: "Bridal Storytelling Mehendi",
+      category: "mehendi",
+      categoryLabel: "Bridal Mehendi",
+      caption: "Intricate, dark-staining organic bridal henna with delicate florals and jaals.",
+      videoSrc: "assets/videos/C0DZDd-PiN_.mp4",
+      poster: "assets/thumbnails/C0DZDd-PiN_.jpg",
+      tag: "100% Organic Henna"
+    },
+    {
+      id: "C0Ek_RIPWO9",
+      title: "Sacred Pelli Kundalu & Kundan Pots",
+      category: "pots",
+      categoryLabel: "Pelli Kundalu",
+      caption: "Handcrafted Telugu wedding pots adorned with sparkling kundan crystal stones.",
+      videoSrc: "assets/videos/C0Ek_RIPWO9.mp4",
+      poster: "assets/thumbnails/C0Ek_RIPWO9.jpg",
+      tag: "Handcrafted Heritage"
+    },
+    {
+      id: "C0HUmw8P6Vj",
+      title: "Gariga Muntha & Irandla Kundalu Set",
+      category: "pots",
+      categoryLabel: "Gariga Muntha",
+      caption: "The sacred centerpiece bride's pot and twin prosperity pots crafted to perfection.",
+      videoSrc: "assets/videos/C0HUmw8P6Vj.mp4",
+      poster: "assets/thumbnails/C0HUmw8P6Vj.jpg",
+      tag: "Telugu Tradition"
+    },
+    {
+      id: "C0JjdFKRaLr",
+      title: "Dry Coconut (Kudakalu) Kundan Art",
+      category: "pots",
+      categoryLabel: "Sacred Coconuts",
+      caption: "Sacred Jeelakarra Bellam dry coconuts decorated with intricate kundan stone craft.",
+      videoSrc: "assets/videos/C0JjdFKRaLr.mp4",
+      poster: "assets/thumbnails/C0JjdFKRaLr.jpg",
+      tag: "Jeelakarra Bellam"
+    },
+    {
+      id: "C08ktnCR3H3",
+      title: "Bridal Order Preparation Vlog",
+      category: "bridal",
+      categoryLabel: "Behind The Scenes",
+      caption: "A look into how Swetha D meticulously prepares every bridal order and wedding set.",
+      videoSrc: "assets/videos/C08ktnCR3H3.mp4",
+      poster: "assets/thumbnails/C08ktnCR3H3.jpg",
+      tag: "Order Vlog"
+    },
+    {
+      id: "C0QPpPsx32n",
+      title: "Polu Muntalu & Ritual Pots",
+      category: "pots",
+      categoryLabel: "Ritual Pots",
+      caption: "Set of traditional ceremony pots crafted for sacred Telugu wedding rituals.",
+      videoSrc: "assets/videos/C0QPpPsx32n.mp4",
+      poster: "assets/thumbnails/C0QPpPsx32n.jpg",
+      tag: "Set of 4 Pots"
+    },
+    {
+      id: "C0Ns-GuvLHi",
+      title: "Royal Kundan Work Wedding Pots",
+      category: "pots",
+      categoryLabel: "Kundan Pots",
+      caption: "Dazzling stone-studded sacred pots that sparkle under wedding mandap lights.",
+      videoSrc: "assets/videos/C0Ns-GuvLHi.mp4",
+      poster: "assets/thumbnails/C0Ns-GuvLHi.jpg",
+      tag: "Royal Kundan"
+    },
+    {
+      id: "C0MbmVJvEUO",
+      title: "Handcrafted Wedding Essentials Collection",
+      category: "pots",
+      categoryLabel: "Wedding Craft",
+      caption: "Complete custom handcrafted wedding collection for traditional Telugu marriages.",
+      videoSrc: "assets/videos/C0MbmVJvEUO.mp4",
+      poster: "assets/thumbnails/C0MbmVJvEUO.jpg",
+      tag: "Custom Order"
+    }
+  ],
   categories: [
     {
       id: 'makeup',
