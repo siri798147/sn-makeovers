@@ -555,85 +555,139 @@
       <div id="tab-hair" class="service-panel hidden">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           
-          <div class="luxury-card p-6 flex flex-col justify-between">
-            <div>
-              <span class="text-[11px] font-bold text-amber-900 bg-amber-100 px-2.5 py-0.5 rounded-full uppercase tracking-wider">Telugu Heritage</span>
-              <h3 class="text-xl font-serif-luxury font-bold text-royal-900 my-2">Muhurtham Hairstyle</h3>
-              <p class="text-stone-600 text-xs leading-relaxed mb-4">
-                Grand traditional South Indian poolajada with fresh fragrant jasmine, veni, billalu, and heavy temple gold embellishments.
-              </p>
+          <!-- 1. Muhurtham Hairstyle -->
+          <div class="luxury-card overflow-hidden flex flex-col justify-between group">
+            <div class="h-48 overflow-hidden relative">
+              <img src="assets/photos/hairstyles/muhurtam_hairstyle.jpg" alt="Muhurtham Hairstyle" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <span class="absolute top-2 left-2 text-[10px] font-bold text-amber-900 bg-amber-100/90 backdrop-blur-sm px-2.5 py-0.5 rounded-full uppercase tracking-wider">Telugu Heritage</span>
             </div>
-            <div class="pt-4 border-t border-stone-100">
-              <button onclick="selectAndGoToPackage('Hair', 'Muhurtham Hairstyle')" class="text-xs font-bold text-royal-800 hover:text-royal-600">Add to Package →</button>
-            </div>
-          </div>
-
-          <div class="luxury-card p-6 flex flex-col justify-between">
-            <div>
-              <span class="text-[11px] font-bold text-blue-900 bg-blue-50 px-2.5 py-0.5 rounded-full uppercase tracking-wider">Cascading Waves</span>
-              <h3 class="text-xl font-serif-luxury font-bold text-royal-900 my-2">Waterfall Hairstyle</h3>
-              <p class="text-stone-600 text-xs leading-relaxed mb-4">
-                Romantic waterfall braid cascading into soft waves, adorned with baby's breath flowers and pearl pins for engagement.
-              </p>
-            </div>
-            <div class="pt-4 border-t border-stone-100">
-              <button onclick="selectAndGoToPackage('Hair', 'Waterfall Hairstyle')" class="text-xs font-bold text-royal-800 hover:text-royal-600">Add to Package →</button>
+            <div class="p-5 flex flex-col justify-between flex-grow">
+              <div>
+                <h3 class="text-lg font-serif-luxury font-bold text-royal-900 mb-1">1. Muhurtham Hairstyle</h3>
+                <p class="text-stone-600 text-xs leading-relaxed mb-3">
+                  Grand traditional South Indian poolajada with fresh fragrant jasmine, veni, jadabillalu, and heavy temple gold embellishments.
+                </p>
+              </div>
+              <div class="pt-3 border-t border-stone-100 flex items-center justify-between">
+                <button onclick="selectAndGoToPackage('Hair', 'Muhurtham Hairstyle')" class="text-xs font-bold text-royal-800 hover:text-royal-600">Add to Package &rarr;</button>
+                <a href="https://wa.me/918498919974?text=Hello%20Swetha,%20I%20want%20to%20book%20Muhurtham%20Hairstyle!" target="_blank" class="text-rose-700 hover:text-rose-900 text-xs font-bold">
+                  <i class="fa-brands fa-whatsapp"></i> Book Now
+                </a>
+              </div>
             </div>
           </div>
 
-          <div class="luxury-card p-6 flex flex-col justify-between">
-            <div>
-              <span class="text-[11px] font-bold text-stone-800 bg-stone-100 px-2.5 py-0.5 rounded-full uppercase tracking-wider">Modern Chic</span>
-              <h3 class="text-xl font-serif-luxury font-bold text-royal-900 my-2">Messy Hairstyle</h3>
-              <p class="text-stone-600 text-xs leading-relaxed mb-4">
-                Effortless textured messy bun or loose romantic updos with face-framing tendrils and floral sprigs for sangeet & cocktail.
-              </p>
+          <!-- 2. Waterfall Hairstyle -->
+          <div class="luxury-card overflow-hidden flex flex-col justify-between group">
+            <div class="h-48 overflow-hidden relative">
+              <img src="assets/photos/hairstyles/waterfall_hairstyle.jpg" alt="Waterfall Hairstyle" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <span class="absolute top-2 left-2 text-[10px] font-bold text-blue-900 bg-blue-100/90 backdrop-blur-sm px-2.5 py-0.5 rounded-full uppercase tracking-wider">Cascading Waves</span>
             </div>
-            <div class="pt-4 border-t border-stone-100">
-              <button onclick="selectAndGoToPackage('Hair', 'Messy Hairstyle')" class="text-xs font-bold text-royal-800 hover:text-royal-600">Add to Package →</button>
-            </div>
-          </div>
-
-          <div class="luxury-card p-6 flex flex-col justify-between">
-            <div>
-              <span class="text-[11px] font-bold text-purple-900 bg-purple-50 px-2.5 py-0.5 rounded-full uppercase tracking-wider">Timeless Royal</span>
-              <h3 class="text-xl font-serif-luxury font-bold text-royal-900 my-2">Bun Hairstyle</h3>
-              <p class="text-stone-600 text-xs leading-relaxed mb-4">
-                Royal architectural buns (rose bun, donut bun, sleek low bun) with strong pin-stay to hold heavy floral or jewellery arrangements.
-              </p>
-            </div>
-            <div class="pt-4 border-t border-stone-100">
-              <button onclick="selectAndGoToPackage('Hair', 'Bun Hairstyle')" class="text-xs font-bold text-royal-800 hover:text-royal-600">Add to Package →</button>
+            <div class="p-5 flex flex-col justify-between flex-grow">
+              <div>
+                <h3 class="text-lg font-serif-luxury font-bold text-royal-900 mb-1">2. Waterfall Hairstyle</h3>
+                <p class="text-stone-600 text-xs leading-relaxed mb-3">
+                  Romantic waterfall plait cascading into soft textured waves, adorned with delicate baby's breath flowers and pearl pins.
+                </p>
+              </div>
+              <div class="pt-3 border-t border-stone-100 flex items-center justify-between">
+                <button onclick="selectAndGoToPackage('Hair', 'Waterfall Hairstyle')" class="text-xs font-bold text-royal-800 hover:text-royal-600">Add to Package &rarr;</button>
+                <a href="https://wa.me/918498919974?text=Hello%20Swetha,%20I%20want%20to%20book%20Waterfall%20Hairstyle!" target="_blank" class="text-rose-700 hover:text-rose-900 text-xs font-bold">
+                  <i class="fa-brands fa-whatsapp"></i> Book Now
+                </a>
+              </div>
             </div>
           </div>
 
-          <div class="luxury-card p-6 flex flex-col justify-between">
-            <div>
-              <span class="text-[11px] font-bold text-rose-900 bg-rose-50 px-2.5 py-0.5 rounded-full uppercase tracking-wider">Red Carpet Glam</span>
-              <h3 class="text-xl font-serif-luxury font-bold text-royal-900 my-2">Bollywood Curls</h3>
-              <p class="text-stone-600 text-xs leading-relaxed mb-4">
-                Bouncy, voluminous, glossy waves and Hollywood red-carpet curls treated with thermal protectants and long-lasting hair mist.
-              </p>
+          <!-- 3. Messy Hairstyle -->
+          <div class="luxury-card overflow-hidden flex flex-col justify-between group">
+            <div class="h-48 overflow-hidden relative">
+              <img src="assets/photos/hairstyles/messy_hairstyle.jpg" alt="Messy Hairstyle" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <span class="absolute top-2 left-2 text-[10px] font-bold text-stone-800 bg-stone-100/90 backdrop-blur-sm px-2.5 py-0.5 rounded-full uppercase tracking-wider">Modern Chic</span>
             </div>
-            <div class="pt-4 border-t border-stone-100">
-              <button onclick="selectAndGoToPackage('Hair', 'Bollywood Curls')" class="text-xs font-bold text-royal-800 hover:text-royal-600">Add to Package →</button>
-            </div>
-          </div>
-
-          <div class="luxury-card p-6 flex flex-col justify-between">
-            <div>
-              <span class="text-[11px] font-bold text-amber-900 bg-amber-50 px-2.5 py-0.5 rounded-full uppercase tracking-wider">Intricate Braid</span>
-              <h3 class="text-xl font-serif-luxury font-bold text-royal-900 my-2">Fishtail Braid</h3>
-              <p class="text-stone-600 text-xs leading-relaxed mb-4">
-                Densely woven fishtail braid interlaced with pearls, gota patti threads, or micro flowers for mehendi & haldi ceremony.
-              </p>
-            </div>
-            <div class="pt-4 border-t border-stone-100">
-              <button onclick="selectAndGoToPackage('Hair', 'Fishtail Braid')" class="text-xs font-bold text-royal-800 hover:text-royal-600">Add to Package →</button>
+            <div class="p-5 flex flex-col justify-between flex-grow">
+              <div>
+                <h3 class="text-lg font-serif-luxury font-bold text-royal-900 mb-1">3. Messy Hairstyle</h3>
+                <p class="text-stone-600 text-xs leading-relaxed mb-3">
+                  Effortless textured messy bun or loose romantic updos with face-framing tendrils and floral sprigs for sangeet & cocktail.
+                </p>
+              </div>
+              <div class="pt-3 border-t border-stone-100 flex items-center justify-between">
+                <button onclick="selectAndGoToPackage('Hair', 'Messy Hairstyle')" class="text-xs font-bold text-royal-800 hover:text-royal-600">Add to Package &rarr;</button>
+                <a href="https://wa.me/918498919974?text=Hello%20Swetha,%20I%20want%20to%20book%20Messy%20Hairstyle!" target="_blank" class="text-rose-700 hover:text-rose-900 text-xs font-bold">
+                  <i class="fa-brands fa-whatsapp"></i> Book Now
+                </a>
+              </div>
             </div>
           </div>
 
-        </div>
+          <!-- 4. Bun Hairstyle -->
+          <div class="luxury-card overflow-hidden flex flex-col justify-between group">
+            <div class="h-48 overflow-hidden relative">
+              <img src="assets/photos/hairstyles/bun_hairstyle.jpg" alt="Bun Hairstyle" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <span class="absolute top-2 left-2 text-[10px] font-bold text-purple-900 bg-purple-100/90 backdrop-blur-sm px-2.5 py-0.5 rounded-full uppercase tracking-wider">Timeless Royal</span>
+            </div>
+            <div class="p-5 flex flex-col justify-between flex-grow">
+              <div>
+                <h3 class="text-lg font-serif-luxury font-bold text-royal-900 mb-1">4. Bun Hairstyle</h3>
+                <p class="text-stone-600 text-xs leading-relaxed mb-3">
+                  Sophisticated high, low, or braided chignon dressed with fresh red Dutch roses, baby's breath, and crystal jewelry.
+                </p>
+              </div>
+              <div class="pt-3 border-t border-stone-100 flex items-center justify-between">
+                <button onclick="selectAndGoToPackage('Hair', 'Bun Hairstyle')" class="text-xs font-bold text-royal-800 hover:text-royal-600">Add to Package &rarr;</button>
+                <a href="https://wa.me/918498919974?text=Hello%20Swetha,%20I%20want%20to%20book%20Bun%20Hairstyle!" target="_blank" class="text-rose-700 hover:text-rose-900 text-xs font-bold">
+                  <i class="fa-brands fa-whatsapp"></i> Book Now
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. Bollywood Curls -->
+          <div class="luxury-card overflow-hidden flex flex-col justify-between group">
+            <div class="h-48 overflow-hidden relative">
+              <img src="assets/photos/hairstyles/bollywood_curls.jpg" alt="Bollywood Curls" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <span class="absolute top-2 left-2 text-[10px] font-bold text-amber-800 bg-amber-50/90 backdrop-blur-sm px-2.5 py-0.5 rounded-full uppercase tracking-wider">Red Carpet</span>
+            </div>
+            <div class="p-5 flex flex-col justify-between flex-grow">
+              <div>
+                <h3 class="text-lg font-serif-luxury font-bold text-royal-900 mb-1">5. Bollywood Curls</h3>
+                <p class="text-stone-600 text-xs leading-relaxed mb-3">
+                  Voluminous, glossy Hollywood & Bollywood blowout curls with extreme bounce and long-lasting hold for high-energy dancing.
+                </p>
+              </div>
+              <div class="pt-3 border-t border-stone-100 flex items-center justify-between">
+                <button onclick="selectAndGoToPackage('Hair', 'Bollywood Curls')" class="text-xs font-bold text-royal-800 hover:text-royal-600">Add to Package &rarr;</button>
+                <a href="https://wa.me/918498919974?text=Hello%20Swetha,%20I%20want%20to%20book%20Bollywood%20Curls!" target="_blank" class="text-rose-700 hover:text-rose-900 text-xs font-bold">
+                  <i class="fa-brands fa-whatsapp"></i> Book Now
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6. Fishtail Braid -->
+          <div class="luxury-card overflow-hidden flex flex-col justify-between group">
+            <div class="h-48 overflow-hidden relative">
+              <img src="assets/photos/hairstyles/fishtail_braid.jpg" alt="Fishtail Braid" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <span class="absolute top-2 left-2 text-[10px] font-bold text-emerald-900 bg-emerald-100/90 backdrop-blur-sm px-2.5 py-0.5 rounded-full uppercase tracking-wider">Modern Plait</span>
+            </div>
+            <div class="p-5 flex flex-col justify-between flex-grow">
+              <div>
+                <h3 class="text-lg font-serif-luxury font-bold text-royal-900 mb-1">6. Fishtail Braid</h3>
+                <p class="text-stone-600 text-xs leading-relaxed mb-3">
+                  Artful multi-strand fishtail plait with pulled texture, interwoven with baby's breath and delicate pearl strands.
+                </p>
+              </div>
+              <div class="pt-3 border-t border-stone-100 flex items-center justify-between">
+                <button onclick="selectAndGoToPackage('Hair', 'Fishtail Braid')" class="text-xs font-bold text-royal-800 hover:text-royal-600">Add to Package &rarr;</button>
+                <a href="https://wa.me/918498919974?text=Hello%20Swetha,%20I%20want%20to%20book%20Fishtail%20Braid!" target="_blank" class="text-rose-700 hover:text-rose-900 text-xs font-bold">
+                  <i class="fa-brands fa-whatsapp"></i> Book Now
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div></div>
       </div>
 
       <!-- TAB 3: SAREE BOX FOLDING -->
@@ -1003,6 +1057,7 @@
   
   <!-- REAL VIDEOS & REELS SHOWCASE SECTION -->
     <!-- 2. REAL PLAYABLE VIDEOS & REELS SHOWCASE SECTION -->
+    <!-- 2. REAL PLAYABLE VIDEOS & REELS SHOWCASE SECTION -->
   <section id="videos" class="py-16 md:py-24 bg-[#1F070B] text-white relative border-y border-gold-500/40">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
@@ -1017,25 +1072,24 @@
           <i class="fa-solid fa-play text-gold-400 text-sm"></i>
         </div>
         <p class="text-amber-100/80 text-sm sm:text-base font-light">
-          Watch Swetha D's authentic bridal transformations, 13-pleats saree folding, hairstyles, wedding pots & mehendi videos right here on the website!
+          Watch Swetha D's authentic bridal makeovers, travel prep vlogs, baby shower henna, saree draping, and handcrafted sacred Telugu marriage pots right here on the website!
         </p>
       </div>
 
       <!-- Video Category Filter Tabs -->
       <div class="flex flex-wrap justify-center gap-2 sm:gap-3 mb-12 text-xs font-semibold">
-        <button class="video-filter-btn px-4 py-2 rounded-full border border-amber-700 bg-amber-900 text-amber-100 transition-all shadow-md" data-filter="all">All Videos & Reels (11)</button>
-        <button class="video-filter-btn px-4 py-2 rounded-full border border-stone-600 bg-royal-950 text-amber-200 hover:border-gold-500 transition-all" data-filter="bridal">Bridal & Makeovers (4)</button>
-        <button class="video-filter-btn px-4 py-2 rounded-full border border-stone-600 bg-royal-950 text-amber-200 hover:border-gold-500 transition-all" data-filter="hairstyles">Hairstyling Art (3)</button>
-        <button class="video-filter-btn px-4 py-2 rounded-full border border-stone-600 bg-royal-950 text-amber-200 hover:border-gold-500 transition-all" data-filter="saree">Saree Art & Folding (2)</button>
-        <button class="video-filter-btn px-4 py-2 rounded-full border border-stone-600 bg-royal-950 text-amber-200 hover:border-gold-500 transition-all" data-filter="pots">Marriage Pots & Bondam (1)</button>
-        <button class="video-filter-btn px-4 py-2 rounded-full border border-stone-600 bg-royal-950 text-amber-200 hover:border-gold-500 transition-all" data-filter="mehendi">Mehendi Designs (1)</button>
+        <button class="video-filter-btn px-4 py-2 rounded-full border border-amber-700 bg-amber-900 text-amber-100 transition-all shadow-md" data-filter="all">All Videos (12)</button>
+        <button class="video-filter-btn px-4 py-2 rounded-full border border-stone-600 bg-royal-950 text-amber-200 hover:border-gold-500 transition-all" data-filter="pots">Marriage Pots & Bondam (7)</button>
+        <button class="video-filter-btn px-4 py-2 rounded-full border border-stone-600 bg-royal-950 text-amber-200 hover:border-gold-500 transition-all" data-filter="bridal">Bridal & Makeovers (2)</button>
+        <button class="video-filter-btn px-4 py-2 rounded-full border border-stone-600 bg-royal-950 text-amber-200 hover:border-gold-500 transition-all" data-filter="mehendi">Mehendi Designs (2)</button>
+        <button class="video-filter-btn px-4 py-2 rounded-full border border-stone-600 bg-royal-950 text-amber-200 hover:border-gold-500 transition-all" data-filter="saree">Saree Draping & Folding (1)</button>
       </div>
 
       <!-- Video Grid -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-        <!-- Video Card: Royal Telugu Bridal Muhurtham Makeover -->
+        <!-- Video Card: Masterclass Certification & Student Honors -->
         <div class="video-card-item group relative rounded-2xl overflow-hidden border border-gold-500/30 bg-royal-950/90 shadow-2xl hover:border-gold-400 transition-all flex flex-col justify-between" data-category="bridal">
-          <!-- Playable Video Player Container -->
+          <!-- Playable Video Container -->
           <div class="relative w-full aspect-[9/16] max-h-[440px] bg-black overflow-hidden">
             <video
               class="w-full h-full object-cover"
@@ -1047,55 +1101,55 @@
               Your browser does not support HTML5 video.
             </video>
             
-            <!-- Floating Badges Overlay -->
+            <!-- Top Badges Overlay -->
             <div class="absolute top-3 left-3 pointer-events-none z-10">
               <span class="text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded-full bg-black/80 text-gold-300 border border-gold-500/50 backdrop-blur-sm flex items-center gap-1 shadow-lg">
-                <i class="fa-solid fa-crown text-xs text-gold-400"></i> Signature Bride
+                <i class="fa-solid fa-graduation-cap text-xs text-gold-400"></i> Official Certificate
               </span>
             </div>
             
             <div class="absolute top-3 right-3 z-10">
               <a href="https://www.instagram.com/reel/Cz6Dg0jpi1D/" target="_blank" rel="noopener noreferrer" 
                  class="px-2.5 py-1 rounded-full bg-black/80 hover:bg-gradient-to-r hover:from-amber-500 hover:to-pink-600 text-white text-[11px] font-medium border border-white/30 backdrop-blur-sm transition-all flex items-center gap-1 shadow-lg"
-                 title="View Reel on Instagram">
+                 title="Open on Instagram">
                 <i class="fa-brands fa-instagram text-pink-400"></i> Reel
               </a>
             </div>
           </div>
 
-          <!-- Video Details & Direct Booking Actions -->
+          <!-- Video Details & Actions -->
           <div class="p-4 sm:p-5 flex flex-col justify-between flex-grow space-y-3 bg-[#180407]">
             <div>
               <div class="flex items-center justify-between text-[11px] text-amber-300/80 mb-1 font-medium">
-                <span class="flex items-center gap-1"><i class="fa-solid fa-sparkles text-gold-400"></i> Bridal Signature</span>
+                <span class="flex items-center gap-1"><i class="fa-solid fa-sparkles text-gold-400"></i> Bridal & Academy</span>
                 <span class="text-white/60 flex items-center gap-1"><i class="fa-regular fa-circle-play text-gold-400"></i> Playable HD Video</span>
               </div>
               <h3 class="text-base font-bold text-white font-serif-luxury leading-snug group-hover:text-gold-300 transition-colors">
-                Royal Telugu Bridal Muhurtham Makeover
+                Masterclass Certification & Student Honors
               </h3>
               <p class="text-xs text-amber-100/70 mt-1 line-clamp-2 leading-relaxed">
-                Flawless HD radiant bridal glow, temple jewelry styling, and pattu saree draping for grand celebrations.
+                Official stage celebration and certificate awarded to Renikunta Swetha for excellence in bridal makeover artistry.
               </p>
             </div>
 
             <!-- Card Booking Actions -->
             <div class="pt-3 border-t border-gold-500/20 flex items-center gap-2">
-              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu%2C%20I%20watched%20the%20video%20%27Royal%20Telugu%20Bridal%20Muhurtham%20Makeover%27%20on%20your%20website%20and%20would%20like%20to%20inquire%20about%20booking/ordering%20for%20my%20event%21" target="_blank" rel="noopener noreferrer" 
+              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu%2C%20I%20watched%20the%20video%20%27Masterclass%20Certification%20%26%20Student%20Honors%27%20on%20your%20website%20and%20would%20like%20to%20inquire%20about%20booking/ordering%20for%20my%20event%21" target="_blank" rel="noopener noreferrer" 
                  class="flex-1 py-2 px-3 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-royal-950 text-xs font-bold font-cinzel text-center tracking-wider transition-all shadow-md flex items-center justify-center gap-1.5">
-                <i class="fa-brands fa-whatsapp text-sm font-black"></i> Book This Look
+                <i class="fa-brands fa-whatsapp text-sm font-black"></i> Book This Service
               </a>
               <a href="https://www.instagram.com/reel/Cz6Dg0jpi1D/" target="_blank" rel="noopener noreferrer" 
                  class="p-2 rounded-lg border border-gold-500/30 bg-royal-900/80 hover:bg-pink-900/60 text-pink-300 hover:text-white transition-all text-xs flex items-center justify-center" 
-                 title="Open on Instagram">
-                <i class="fa-brands fa-instagram text-base"></i>
+                 title="View Details">
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
               </a>
             </div>
           </div>
         </div>
 
-        <!-- Video Card: Muhurtham Braid & Jasmine Poola Jada -->
-        <div class="video-card-item group relative rounded-2xl overflow-hidden border border-gold-500/30 bg-royal-950/90 shadow-2xl hover:border-gold-400 transition-all flex flex-col justify-between" data-category="hairstyles">
-          <!-- Playable Video Player Container -->
+        <!-- Video Card: On-Location Travel & Ready-to-Bride Order Day -->
+        <div class="video-card-item group relative rounded-2xl overflow-hidden border border-gold-500/30 bg-royal-950/90 shadow-2xl hover:border-gold-400 transition-all flex flex-col justify-between" data-category="bridal">
+          <!-- Playable Video Container -->
           <div class="relative w-full aspect-[9/16] max-h-[440px] bg-black overflow-hidden">
             <video
               class="w-full h-full object-cover"
@@ -1107,535 +1161,55 @@
               Your browser does not support HTML5 video.
             </video>
             
-            <!-- Floating Badges Overlay -->
+            <!-- Top Badges Overlay -->
             <div class="absolute top-3 left-3 pointer-events-none z-10">
               <span class="text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded-full bg-black/80 text-gold-300 border border-gold-500/50 backdrop-blur-sm flex items-center gap-1 shadow-lg">
-                <i class="fa-solid fa-wand-magic-sparkles text-xs text-gold-400"></i> Poola Jada Art
+                <i class="fa-solid fa-car-side text-xs text-gold-400"></i> Ready To Bride Vlog
               </span>
             </div>
             
             <div class="absolute top-3 right-3 z-10">
               <a href="https://www.instagram.com/reel/C08ktnCR3H3/" target="_blank" rel="noopener noreferrer" 
                  class="px-2.5 py-1 rounded-full bg-black/80 hover:bg-gradient-to-r hover:from-amber-500 hover:to-pink-600 text-white text-[11px] font-medium border border-white/30 backdrop-blur-sm transition-all flex items-center gap-1 shadow-lg"
-                 title="View Reel on Instagram">
+                 title="Open on Instagram">
                 <i class="fa-brands fa-instagram text-pink-400"></i> Reel
               </a>
             </div>
           </div>
 
-          <!-- Video Details & Direct Booking Actions -->
+          <!-- Video Details & Actions -->
           <div class="p-4 sm:p-5 flex flex-col justify-between flex-grow space-y-3 bg-[#180407]">
             <div>
               <div class="flex items-center justify-between text-[11px] text-amber-300/80 mb-1 font-medium">
-                <span class="flex items-center gap-1"><i class="fa-solid fa-sparkles text-gold-400"></i> Bridal Hairstyle</span>
+                <span class="flex items-center gap-1"><i class="fa-solid fa-sparkles text-gold-400"></i> Bridal Vlog</span>
                 <span class="text-white/60 flex items-center gap-1"><i class="fa-regular fa-circle-play text-gold-400"></i> Playable HD Video</span>
               </div>
               <h3 class="text-base font-bold text-white font-serif-luxury leading-snug group-hover:text-gold-300 transition-colors">
-                Muhurtham Braid & Jasmine Poola Jada
+                On-Location Travel & Ready-to-Bride Order Day
               </h3>
               <p class="text-xs text-amber-100/70 mt-1 line-clamp-2 leading-relaxed">
-                Traditional South Indian wedding braid adorned with fresh fragrant jasmine, veni, and gold brooches.
+                Mini vlog of Swetha traveling on-location and prepping the bride for her auspicious wedding ceremony.
               </p>
             </div>
 
             <!-- Card Booking Actions -->
             <div class="pt-3 border-t border-gold-500/20 flex items-center gap-2">
-              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu%2C%20I%20watched%20the%20video%20%27Muhurtham%20Braid%20%26%20Jasmine%20Poola%20Jada%27%20on%20your%20website%20and%20would%20like%20to%20inquire%20about%20booking/ordering%20for%20my%20event%21" target="_blank" rel="noopener noreferrer" 
+              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu%2C%20I%20watched%20the%20video%20%27On-Location%20Travel%20%26%20Ready-to-Bride%20Order%20Day%27%20on%20your%20website%20and%20would%20like%20to%20inquire%20about%20booking/ordering%20for%20my%20event%21" target="_blank" rel="noopener noreferrer" 
                  class="flex-1 py-2 px-3 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-royal-950 text-xs font-bold font-cinzel text-center tracking-wider transition-all shadow-md flex items-center justify-center gap-1.5">
-                <i class="fa-brands fa-whatsapp text-sm font-black"></i> Book This Look
+                <i class="fa-brands fa-whatsapp text-sm font-black"></i> Book This Service
               </a>
               <a href="https://www.instagram.com/reel/C08ktnCR3H3/" target="_blank" rel="noopener noreferrer" 
                  class="p-2 rounded-lg border border-gold-500/30 bg-royal-900/80 hover:bg-pink-900/60 text-pink-300 hover:text-white transition-all text-xs flex items-center justify-center" 
-                 title="Open on Instagram">
-                <i class="fa-brands fa-instagram text-base"></i>
+                 title="View Details">
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
               </a>
             </div>
           </div>
         </div>
 
-        <!-- Video Card: Signature 13-Pleats Saree Box Folding -->
-        <div class="video-card-item group relative rounded-2xl overflow-hidden border border-gold-500/30 bg-royal-950/90 shadow-2xl hover:border-gold-400 transition-all flex flex-col justify-between" data-category="saree">
-          <!-- Playable Video Player Container -->
-          <div class="relative w-full aspect-[9/16] max-h-[440px] bg-black overflow-hidden">
-            <video
-              class="w-full h-full object-cover"
-              src="assets/videos/C0QPpPsx32n.mp4"
-              poster="assets/thumbnails/C0QPpPsx32n.jpg"
-              controls
-              playsinline
-              preload="metadata">
-              Your browser does not support HTML5 video.
-            </video>
-            
-            <!-- Floating Badges Overlay -->
-            <div class="absolute top-3 left-3 pointer-events-none z-10">
-              <span class="text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded-full bg-black/80 text-gold-300 border border-gold-500/50 backdrop-blur-sm flex items-center gap-1 shadow-lg">
-                <i class="fa-solid fa-box-archive text-xs text-gold-400"></i> 13-Pleats Signature
-              </span>
-            </div>
-            
-            <div class="absolute top-3 right-3 z-10">
-              <a href="https://www.instagram.com/reel/C0QPpPsx32n/" target="_blank" rel="noopener noreferrer" 
-                 class="px-2.5 py-1 rounded-full bg-black/80 hover:bg-gradient-to-r hover:from-amber-500 hover:to-pink-600 text-white text-[11px] font-medium border border-white/30 backdrop-blur-sm transition-all flex items-center gap-1 shadow-lg"
-                 title="View Reel on Instagram">
-                <i class="fa-brands fa-instagram text-pink-400"></i> Reel
-              </a>
-            </div>
-          </div>
-
-          <!-- Video Details & Direct Booking Actions -->
-          <div class="p-4 sm:p-5 flex flex-col justify-between flex-grow space-y-3 bg-[#180407]">
-            <div>
-              <div class="flex items-center justify-between text-[11px] text-amber-300/80 mb-1 font-medium">
-                <span class="flex items-center gap-1"><i class="fa-solid fa-sparkles text-gold-400"></i> Saree Folding</span>
-                <span class="text-white/60 flex items-center gap-1"><i class="fa-regular fa-circle-play text-gold-400"></i> Playable HD Video</span>
-              </div>
-              <h3 class="text-base font-bold text-white font-serif-luxury leading-snug group-hover:text-gold-300 transition-colors">
-                Signature 13-Pleats Saree Box Folding
-              </h3>
-              <p class="text-xs text-amber-100/70 mt-1 line-clamp-2 leading-relaxed">
-                Masterful box pleating and pressing technique ensuring crisp, pin-free, zero-stress bridal dressing.
-              </p>
-            </div>
-
-            <!-- Card Booking Actions -->
-            <div class="pt-3 border-t border-gold-500/20 flex items-center gap-2">
-              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu%2C%20I%20watched%20the%20video%20%27Signature%2013-Pleats%20Saree%20Box%20Folding%27%20on%20your%20website%20and%20would%20like%20to%20inquire%20about%20booking/ordering%20for%20my%20event%21" target="_blank" rel="noopener noreferrer" 
-                 class="flex-1 py-2 px-3 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-royal-950 text-xs font-bold font-cinzel text-center tracking-wider transition-all shadow-md flex items-center justify-center gap-1.5">
-                <i class="fa-brands fa-whatsapp text-sm font-black"></i> Book This Look
-              </a>
-              <a href="https://www.instagram.com/reel/C0QPpPsx32n/" target="_blank" rel="noopener noreferrer" 
-                 class="p-2 rounded-lg border border-gold-500/30 bg-royal-900/80 hover:bg-pink-900/60 text-pink-300 hover:text-white transition-all text-xs flex items-center justify-center" 
-                 title="Open on Instagram">
-                <i class="fa-brands fa-instagram text-base"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Video Card: Royal South Indian Bride Transformation -->
-        <div class="video-card-item group relative rounded-2xl overflow-hidden border border-gold-500/30 bg-royal-950/90 shadow-2xl hover:border-gold-400 transition-all flex flex-col justify-between" data-category="bridal">
-          <!-- Playable Video Player Container -->
-          <div class="relative w-full aspect-[9/16] max-h-[440px] bg-black overflow-hidden">
-            <video
-              class="w-full h-full object-cover"
-              src="assets/videos/C0Ns-GuvLHi.mp4"
-              poster="assets/thumbnails/C0Ns-GuvLHi.jpg"
-              controls
-              playsinline
-              preload="metadata">
-              Your browser does not support HTML5 video.
-            </video>
-            
-            <!-- Floating Badges Overlay -->
-            <div class="absolute top-3 left-3 pointer-events-none z-10">
-              <span class="text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded-full bg-black/80 text-gold-300 border border-gold-500/50 backdrop-blur-sm flex items-center gap-1 shadow-lg">
-                <i class="fa-solid fa-gem text-xs text-gold-400"></i> HD Bridal Glow
-              </span>
-            </div>
-            
-            <div class="absolute top-3 right-3 z-10">
-              <a href="https://www.instagram.com/reel/C0Ns-GuvLHi/" target="_blank" rel="noopener noreferrer" 
-                 class="px-2.5 py-1 rounded-full bg-black/80 hover:bg-gradient-to-r hover:from-amber-500 hover:to-pink-600 text-white text-[11px] font-medium border border-white/30 backdrop-blur-sm transition-all flex items-center gap-1 shadow-lg"
-                 title="View Reel on Instagram">
-                <i class="fa-brands fa-instagram text-pink-400"></i> Reel
-              </a>
-            </div>
-          </div>
-
-          <!-- Video Details & Direct Booking Actions -->
-          <div class="p-4 sm:p-5 flex flex-col justify-between flex-grow space-y-3 bg-[#180407]">
-            <div>
-              <div class="flex items-center justify-between text-[11px] text-amber-300/80 mb-1 font-medium">
-                <span class="flex items-center gap-1"><i class="fa-solid fa-sparkles text-gold-400"></i> Bridal Makeover</span>
-                <span class="text-white/60 flex items-center gap-1"><i class="fa-regular fa-circle-play text-gold-400"></i> Playable HD Video</span>
-              </div>
-              <h3 class="text-base font-bold text-white font-serif-luxury leading-snug group-hover:text-gold-300 transition-colors">
-                Royal South Indian Bride Transformation
-              </h3>
-              <p class="text-xs text-amber-100/70 mt-1 line-clamp-2 leading-relaxed">
-                Authentic wedding day bridal aesthetics with sweat-proof long-wear HD base and rich gold highlights.
-              </p>
-            </div>
-
-            <!-- Card Booking Actions -->
-            <div class="pt-3 border-t border-gold-500/20 flex items-center gap-2">
-              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu%2C%20I%20watched%20the%20video%20%27Royal%20South%20Indian%20Bride%20Transformation%27%20on%20your%20website%20and%20would%20like%20to%20inquire%20about%20booking/ordering%20for%20my%20event%21" target="_blank" rel="noopener noreferrer" 
-                 class="flex-1 py-2 px-3 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-royal-950 text-xs font-bold font-cinzel text-center tracking-wider transition-all shadow-md flex items-center justify-center gap-1.5">
-                <i class="fa-brands fa-whatsapp text-sm font-black"></i> Book This Look
-              </a>
-              <a href="https://www.instagram.com/reel/C0Ns-GuvLHi/" target="_blank" rel="noopener noreferrer" 
-                 class="p-2 rounded-lg border border-gold-500/30 bg-royal-900/80 hover:bg-pink-900/60 text-pink-300 hover:text-white transition-all text-xs flex items-center justify-center" 
-                 title="Open on Instagram">
-                <i class="fa-brands fa-instagram text-base"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Video Card: Classic Reception Bun & Floral Crown -->
-        <div class="video-card-item group relative rounded-2xl overflow-hidden border border-gold-500/30 bg-royal-950/90 shadow-2xl hover:border-gold-400 transition-all flex flex-col justify-between" data-category="hairstyles">
-          <!-- Playable Video Player Container -->
-          <div class="relative w-full aspect-[9/16] max-h-[440px] bg-black overflow-hidden">
-            <video
-              class="w-full h-full object-cover"
-              src="assets/videos/C0MbmVJvEUO.mp4"
-              poster="assets/thumbnails/C0MbmVJvEUO.jpg"
-              controls
-              playsinline
-              preload="metadata">
-              Your browser does not support HTML5 video.
-            </video>
-            
-            <!-- Floating Badges Overlay -->
-            <div class="absolute top-3 left-3 pointer-events-none z-10">
-              <span class="text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded-full bg-black/80 text-gold-300 border border-gold-500/50 backdrop-blur-sm flex items-center gap-1 shadow-lg">
-                <i class="fa-solid fa-sparkles text-xs text-gold-400"></i> Reception Glam
-              </span>
-            </div>
-            
-            <div class="absolute top-3 right-3 z-10">
-              <a href="https://www.instagram.com/reel/C0MbmVJvEUO/" target="_blank" rel="noopener noreferrer" 
-                 class="px-2.5 py-1 rounded-full bg-black/80 hover:bg-gradient-to-r hover:from-amber-500 hover:to-pink-600 text-white text-[11px] font-medium border border-white/30 backdrop-blur-sm transition-all flex items-center gap-1 shadow-lg"
-                 title="View Reel on Instagram">
-                <i class="fa-brands fa-instagram text-pink-400"></i> Reel
-              </a>
-            </div>
-          </div>
-
-          <!-- Video Details & Direct Booking Actions -->
-          <div class="p-4 sm:p-5 flex flex-col justify-between flex-grow space-y-3 bg-[#180407]">
-            <div>
-              <div class="flex items-center justify-between text-[11px] text-amber-300/80 mb-1 font-medium">
-                <span class="flex items-center gap-1"><i class="fa-solid fa-sparkles text-gold-400"></i> Reception Hair</span>
-                <span class="text-white/60 flex items-center gap-1"><i class="fa-regular fa-circle-play text-gold-400"></i> Playable HD Video</span>
-              </div>
-              <h3 class="text-base font-bold text-white font-serif-luxury leading-snug group-hover:text-gold-300 transition-colors">
-                Classic Reception Bun & Floral Crown
-              </h3>
-              <p class="text-xs text-amber-100/70 mt-1 line-clamp-2 leading-relaxed">
-                Voluminous structured floral bun tailored for grand wedding receptions, sangeets, and cocktail nights.
-              </p>
-            </div>
-
-            <!-- Card Booking Actions -->
-            <div class="pt-3 border-t border-gold-500/20 flex items-center gap-2">
-              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu%2C%20I%20watched%20the%20video%20%27Classic%20Reception%20Bun%20%26%20Floral%20Crown%27%20on%20your%20website%20and%20would%20like%20to%20inquire%20about%20booking/ordering%20for%20my%20event%21" target="_blank" rel="noopener noreferrer" 
-                 class="flex-1 py-2 px-3 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-royal-950 text-xs font-bold font-cinzel text-center tracking-wider transition-all shadow-md flex items-center justify-center gap-1.5">
-                <i class="fa-brands fa-whatsapp text-sm font-black"></i> Book This Look
-              </a>
-              <a href="https://www.instagram.com/reel/C0MbmVJvEUO/" target="_blank" rel="noopener noreferrer" 
-                 class="p-2 rounded-lg border border-gold-500/30 bg-royal-900/80 hover:bg-pink-900/60 text-pink-300 hover:text-white transition-all text-xs flex items-center justify-center" 
-                 title="Open on Instagram">
-                <i class="fa-brands fa-instagram text-base"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Video Card: Engagement & Haldi Dewy Glam Look -->
-        <div class="video-card-item group relative rounded-2xl overflow-hidden border border-gold-500/30 bg-royal-950/90 shadow-2xl hover:border-gold-400 transition-all flex flex-col justify-between" data-category="bridal">
-          <!-- Playable Video Player Container -->
-          <div class="relative w-full aspect-[9/16] max-h-[440px] bg-black overflow-hidden">
-            <video
-              class="w-full h-full object-cover"
-              src="assets/videos/C0JjdFKRaLr.mp4"
-              poster="assets/thumbnails/C0JjdFKRaLr.jpg"
-              controls
-              playsinline
-              preload="metadata">
-              Your browser does not support HTML5 video.
-            </video>
-            
-            <!-- Floating Badges Overlay -->
-            <div class="absolute top-3 left-3 pointer-events-none z-10">
-              <span class="text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded-full bg-black/80 text-gold-300 border border-gold-500/50 backdrop-blur-sm flex items-center gap-1 shadow-lg">
-                <i class="fa-solid fa-star text-xs text-gold-400"></i> Dewy Glam
-              </span>
-            </div>
-            
-            <div class="absolute top-3 right-3 z-10">
-              <a href="https://www.instagram.com/reel/C0JjdFKRaLr/" target="_blank" rel="noopener noreferrer" 
-                 class="px-2.5 py-1 rounded-full bg-black/80 hover:bg-gradient-to-r hover:from-amber-500 hover:to-pink-600 text-white text-[11px] font-medium border border-white/30 backdrop-blur-sm transition-all flex items-center gap-1 shadow-lg"
-                 title="View Reel on Instagram">
-                <i class="fa-brands fa-instagram text-pink-400"></i> Reel
-              </a>
-            </div>
-          </div>
-
-          <!-- Video Details & Direct Booking Actions -->
-          <div class="p-4 sm:p-5 flex flex-col justify-between flex-grow space-y-3 bg-[#180407]">
-            <div>
-              <div class="flex items-center justify-between text-[11px] text-amber-300/80 mb-1 font-medium">
-                <span class="flex items-center gap-1"><i class="fa-solid fa-sparkles text-gold-400"></i> Event Makeover</span>
-                <span class="text-white/60 flex items-center gap-1"><i class="fa-regular fa-circle-play text-gold-400"></i> Playable HD Video</span>
-              </div>
-              <h3 class="text-base font-bold text-white font-serif-luxury leading-snug group-hover:text-gold-300 transition-colors">
-                Engagement & Haldi Dewy Glam Look
-              </h3>
-              <p class="text-xs text-amber-100/70 mt-1 line-clamp-2 leading-relaxed">
-                Fresh, contemporary luminous look featuring soft shimmer eyes, rosy blush, and perfect contouring.
-              </p>
-            </div>
-
-            <!-- Card Booking Actions -->
-            <div class="pt-3 border-t border-gold-500/20 flex items-center gap-2">
-              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu%2C%20I%20watched%20the%20video%20%27Engagement%20%26%20Haldi%20Dewy%20Glam%20Look%27%20on%20your%20website%20and%20would%20like%20to%20inquire%20about%20booking/ordering%20for%20my%20event%21" target="_blank" rel="noopener noreferrer" 
-                 class="flex-1 py-2 px-3 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-royal-950 text-xs font-bold font-cinzel text-center tracking-wider transition-all shadow-md flex items-center justify-center gap-1.5">
-                <i class="fa-brands fa-whatsapp text-sm font-black"></i> Book This Look
-              </a>
-              <a href="https://www.instagram.com/reel/C0JjdFKRaLr/" target="_blank" rel="noopener noreferrer" 
-                 class="p-2 rounded-lg border border-gold-500/30 bg-royal-900/80 hover:bg-pink-900/60 text-pink-300 hover:text-white transition-all text-xs flex items-center justify-center" 
-                 title="Open on Instagram">
-                <i class="fa-brands fa-instagram text-base"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Video Card: Waterfall Curls & Bollywood Waves -->
-        <div class="video-card-item group relative rounded-2xl overflow-hidden border border-gold-500/30 bg-royal-950/90 shadow-2xl hover:border-gold-400 transition-all flex flex-col justify-between" data-category="hairstyles">
-          <!-- Playable Video Player Container -->
-          <div class="relative w-full aspect-[9/16] max-h-[440px] bg-black overflow-hidden">
-            <video
-              class="w-full h-full object-cover"
-              src="assets/videos/C0HUmw8P6Vj.mp4"
-              poster="assets/thumbnails/C0HUmw8P6Vj.jpg"
-              controls
-              playsinline
-              preload="metadata">
-              Your browser does not support HTML5 video.
-            </video>
-            
-            <!-- Floating Badges Overlay -->
-            <div class="absolute top-3 left-3 pointer-events-none z-10">
-              <span class="text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded-full bg-black/80 text-gold-300 border border-gold-500/50 backdrop-blur-sm flex items-center gap-1 shadow-lg">
-                <i class="fa-solid fa-wind text-xs text-gold-400"></i> Bollywood Waves
-              </span>
-            </div>
-            
-            <div class="absolute top-3 right-3 z-10">
-              <a href="https://www.instagram.com/reel/C0HUmw8P6Vj/" target="_blank" rel="noopener noreferrer" 
-                 class="px-2.5 py-1 rounded-full bg-black/80 hover:bg-gradient-to-r hover:from-amber-500 hover:to-pink-600 text-white text-[11px] font-medium border border-white/30 backdrop-blur-sm transition-all flex items-center gap-1 shadow-lg"
-                 title="View Reel on Instagram">
-                <i class="fa-brands fa-instagram text-pink-400"></i> Reel
-              </a>
-            </div>
-          </div>
-
-          <!-- Video Details & Direct Booking Actions -->
-          <div class="p-4 sm:p-5 flex flex-col justify-between flex-grow space-y-3 bg-[#180407]">
-            <div>
-              <div class="flex items-center justify-between text-[11px] text-amber-300/80 mb-1 font-medium">
-                <span class="flex items-center gap-1"><i class="fa-solid fa-sparkles text-gold-400"></i> Hair Styling</span>
-                <span class="text-white/60 flex items-center gap-1"><i class="fa-regular fa-circle-play text-gold-400"></i> Playable HD Video</span>
-              </div>
-              <h3 class="text-base font-bold text-white font-serif-luxury leading-snug group-hover:text-gold-300 transition-colors">
-                Waterfall Curls & Bollywood Waves
-              </h3>
-              <p class="text-xs text-amber-100/70 mt-1 line-clamp-2 leading-relaxed">
-                Cascading textured open hair curls designed for contemporary party gowns, lehengas, and festivities.
-              </p>
-            </div>
-
-            <!-- Card Booking Actions -->
-            <div class="pt-3 border-t border-gold-500/20 flex items-center gap-2">
-              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu%2C%20I%20watched%20the%20video%20%27Waterfall%20Curls%20%26%20Bollywood%20Waves%27%20on%20your%20website%20and%20would%20like%20to%20inquire%20about%20booking/ordering%20for%20my%20event%21" target="_blank" rel="noopener noreferrer" 
-                 class="flex-1 py-2 px-3 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-royal-950 text-xs font-bold font-cinzel text-center tracking-wider transition-all shadow-md flex items-center justify-center gap-1.5">
-                <i class="fa-brands fa-whatsapp text-sm font-black"></i> Book This Look
-              </a>
-              <a href="https://www.instagram.com/reel/C0HUmw8P6Vj/" target="_blank" rel="noopener noreferrer" 
-                 class="p-2 rounded-lg border border-gold-500/30 bg-royal-900/80 hover:bg-pink-900/60 text-pink-300 hover:text-white transition-all text-xs flex items-center justify-center" 
-                 title="Open on Instagram">
-                <i class="fa-brands fa-instagram text-base"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Video Card: Flawless Saree Silhouette & Pleat Styling -->
-        <div class="video-card-item group relative rounded-2xl overflow-hidden border border-gold-500/30 bg-royal-950/90 shadow-2xl hover:border-gold-400 transition-all flex flex-col justify-between" data-category="saree">
-          <!-- Playable Video Player Container -->
-          <div class="relative w-full aspect-[9/16] max-h-[440px] bg-black overflow-hidden">
-            <video
-              class="w-full h-full object-cover"
-              src="assets/videos/C0Ek_RIPWO9.mp4"
-              poster="assets/thumbnails/C0Ek_RIPWO9.jpg"
-              controls
-              playsinline
-              preload="metadata">
-              Your browser does not support HTML5 video.
-            </video>
-            
-            <!-- Floating Badges Overlay -->
-            <div class="absolute top-3 left-3 pointer-events-none z-10">
-              <span class="text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded-full bg-black/80 text-gold-300 border border-gold-500/50 backdrop-blur-sm flex items-center gap-1 shadow-lg">
-                <i class="fa-solid fa-ribbon text-xs text-gold-400"></i> Perfect Draping
-              </span>
-            </div>
-            
-            <div class="absolute top-3 right-3 z-10">
-              <a href="https://www.instagram.com/reel/C0Ek_RIPWO9/" target="_blank" rel="noopener noreferrer" 
-                 class="px-2.5 py-1 rounded-full bg-black/80 hover:bg-gradient-to-r hover:from-amber-500 hover:to-pink-600 text-white text-[11px] font-medium border border-white/30 backdrop-blur-sm transition-all flex items-center gap-1 shadow-lg"
-                 title="View Reel on Instagram">
-                <i class="fa-brands fa-instagram text-pink-400"></i> Reel
-              </a>
-            </div>
-          </div>
-
-          <!-- Video Details & Direct Booking Actions -->
-          <div class="p-4 sm:p-5 flex flex-col justify-between flex-grow space-y-3 bg-[#180407]">
-            <div>
-              <div class="flex items-center justify-between text-[11px] text-amber-300/80 mb-1 font-medium">
-                <span class="flex items-center gap-1"><i class="fa-solid fa-sparkles text-gold-400"></i> Saree Draping</span>
-                <span class="text-white/60 flex items-center gap-1"><i class="fa-regular fa-circle-play text-gold-400"></i> Playable HD Video</span>
-              </div>
-              <h3 class="text-base font-bold text-white font-serif-luxury leading-snug group-hover:text-gold-300 transition-colors">
-                Flawless Saree Silhouette & Pleat Styling
-              </h3>
-              <p class="text-xs text-amber-100/70 mt-1 line-clamp-2 leading-relaxed">
-                Sculpted saree draping providing effortless mobility, slender waist tucks, and crisp pallu fall.
-              </p>
-            </div>
-
-            <!-- Card Booking Actions -->
-            <div class="pt-3 border-t border-gold-500/20 flex items-center gap-2">
-              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu%2C%20I%20watched%20the%20video%20%27Flawless%20Saree%20Silhouette%20%26%20Pleat%20Styling%27%20on%20your%20website%20and%20would%20like%20to%20inquire%20about%20booking/ordering%20for%20my%20event%21" target="_blank" rel="noopener noreferrer" 
-                 class="flex-1 py-2 px-3 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-royal-950 text-xs font-bold font-cinzel text-center tracking-wider transition-all shadow-md flex items-center justify-center gap-1.5">
-                <i class="fa-brands fa-whatsapp text-sm font-black"></i> Book This Look
-              </a>
-              <a href="https://www.instagram.com/reel/C0Ek_RIPWO9/" target="_blank" rel="noopener noreferrer" 
-                 class="p-2 rounded-lg border border-gold-500/30 bg-royal-900/80 hover:bg-pink-900/60 text-pink-300 hover:text-white transition-all text-xs flex items-center justify-center" 
-                 title="Open on Instagram">
-                <i class="fa-brands fa-instagram text-base"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Video Card: Vibrant Haldi & Mehendi Celebration Makeover -->
-        <div class="video-card-item group relative rounded-2xl overflow-hidden border border-gold-500/30 bg-royal-950/90 shadow-2xl hover:border-gold-400 transition-all flex flex-col justify-between" data-category="bridal">
-          <!-- Playable Video Player Container -->
-          <div class="relative w-full aspect-[9/16] max-h-[440px] bg-black overflow-hidden">
-            <video
-              class="w-full h-full object-cover"
-              src="assets/videos/C0DZDd-PiN_.mp4"
-              poster="assets/thumbnails/C0DZDd-PiN_.jpg"
-              controls
-              playsinline
-              preload="metadata">
-              Your browser does not support HTML5 video.
-            </video>
-            
-            <!-- Floating Badges Overlay -->
-            <div class="absolute top-3 left-3 pointer-events-none z-10">
-              <span class="text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded-full bg-black/80 text-gold-300 border border-gold-500/50 backdrop-blur-sm flex items-center gap-1 shadow-lg">
-                <i class="fa-solid fa-sun text-xs text-gold-400"></i> Festive Glow
-              </span>
-            </div>
-            
-            <div class="absolute top-3 right-3 z-10">
-              <a href="https://www.instagram.com/reel/C0DZDd-PiN_/" target="_blank" rel="noopener noreferrer" 
-                 class="px-2.5 py-1 rounded-full bg-black/80 hover:bg-gradient-to-r hover:from-amber-500 hover:to-pink-600 text-white text-[11px] font-medium border border-white/30 backdrop-blur-sm transition-all flex items-center gap-1 shadow-lg"
-                 title="View Reel on Instagram">
-                <i class="fa-brands fa-instagram text-pink-400"></i> Reel
-              </a>
-            </div>
-          </div>
-
-          <!-- Video Details & Direct Booking Actions -->
-          <div class="p-4 sm:p-5 flex flex-col justify-between flex-grow space-y-3 bg-[#180407]">
-            <div>
-              <div class="flex items-center justify-between text-[11px] text-amber-300/80 mb-1 font-medium">
-                <span class="flex items-center gap-1"><i class="fa-solid fa-sparkles text-gold-400"></i> Festive Look</span>
-                <span class="text-white/60 flex items-center gap-1"><i class="fa-regular fa-circle-play text-gold-400"></i> Playable HD Video</span>
-              </div>
-              <h3 class="text-base font-bold text-white font-serif-luxury leading-snug group-hover:text-gold-300 transition-colors">
-                Vibrant Haldi & Mehendi Celebration Makeover
-              </h3>
-              <p class="text-xs text-amber-100/70 mt-1 line-clamp-2 leading-relaxed">
-                Vibrant and cheerful festive styling designed to remain fresh and photo-ready through rituals and dancing.
-              </p>
-            </div>
-
-            <!-- Card Booking Actions -->
-            <div class="pt-3 border-t border-gold-500/20 flex items-center gap-2">
-              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu%2C%20I%20watched%20the%20video%20%27Vibrant%20Haldi%20%26%20Mehendi%20Celebration%20Makeover%27%20on%20your%20website%20and%20would%20like%20to%20inquire%20about%20booking/ordering%20for%20my%20event%21" target="_blank" rel="noopener noreferrer" 
-                 class="flex-1 py-2 px-3 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-royal-950 text-xs font-bold font-cinzel text-center tracking-wider transition-all shadow-md flex items-center justify-center gap-1.5">
-                <i class="fa-brands fa-whatsapp text-sm font-black"></i> Book This Look
-              </a>
-              <a href="https://www.instagram.com/reel/C0DZDd-PiN_/" target="_blank" rel="noopener noreferrer" 
-                 class="p-2 rounded-lg border border-gold-500/30 bg-royal-900/80 hover:bg-pink-900/60 text-pink-300 hover:text-white transition-all text-xs flex items-center justify-center" 
-                 title="Open on Instagram">
-                <i class="fa-brands fa-instagram text-base"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Video Card: Custom Couple Photo Kobbari Bondam -->
-        <div class="video-card-item group relative rounded-2xl overflow-hidden border border-gold-500/30 bg-royal-950/90 shadow-2xl hover:border-gold-400 transition-all flex flex-col justify-between" data-category="pots">
-          <!-- Playable Video Player Container -->
-          <div class="relative w-full aspect-[9/16] max-h-[440px] bg-black overflow-hidden">
-            <video
-              class="w-full h-full object-cover"
-              src="assets/videos/C_f3eqJN1NA.mp4"
-              poster="assets/thumbnails/C_f3eqJN1NA.jpg"
-              controls
-              playsinline
-              preload="metadata">
-              Your browser does not support HTML5 video.
-            </video>
-            
-            <!-- Floating Badges Overlay -->
-            <div class="absolute top-3 left-3 pointer-events-none z-10">
-              <span class="text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded-full bg-black/80 text-gold-300 border border-gold-500/50 backdrop-blur-sm flex items-center gap-1 shadow-lg">
-                <i class="fa-solid fa-heart text-xs text-gold-400"></i> Custom Bondam
-              </span>
-            </div>
-            
-            <div class="absolute top-3 right-3 z-10">
-              <a href="https://www.instagram.com/reel/C_f3eqJN1NA/" target="_blank" rel="noopener noreferrer" 
-                 class="px-2.5 py-1 rounded-full bg-black/80 hover:bg-gradient-to-r hover:from-amber-500 hover:to-pink-600 text-white text-[11px] font-medium border border-white/30 backdrop-blur-sm transition-all flex items-center gap-1 shadow-lg"
-                 title="View Reel on Instagram">
-                <i class="fa-brands fa-instagram text-pink-400"></i> Reel
-              </a>
-            </div>
-          </div>
-
-          <!-- Video Details & Direct Booking Actions -->
-          <div class="p-4 sm:p-5 flex flex-col justify-between flex-grow space-y-3 bg-[#180407]">
-            <div>
-              <div class="flex items-center justify-between text-[11px] text-amber-300/80 mb-1 font-medium">
-                <span class="flex items-center gap-1"><i class="fa-solid fa-sparkles text-gold-400"></i> Wedding Pots</span>
-                <span class="text-white/60 flex items-center gap-1"><i class="fa-regular fa-circle-play text-gold-400"></i> Playable HD Video</span>
-              </div>
-              <h3 class="text-base font-bold text-white font-serif-luxury leading-snug group-hover:text-gold-300 transition-colors">
-                Custom Couple Photo Kobbari Bondam
-              </h3>
-              <p class="text-xs text-amber-100/70 mt-1 line-clamp-2 leading-relaxed">
-                Sacred tender coconut hand-decorated with bride-groom portrait, rich green velvet, pearls, and kundan stones.
-              </p>
-            </div>
-
-            <!-- Card Booking Actions -->
-            <div class="pt-3 border-t border-gold-500/20 flex items-center gap-2">
-              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu%2C%20I%20watched%20the%20video%20%27Custom%20Couple%20Photo%20Kobbari%20Bondam%27%20on%20your%20website%20and%20would%20like%20to%20inquire%20about%20booking/ordering%20for%20my%20event%21" target="_blank" rel="noopener noreferrer" 
-                 class="flex-1 py-2 px-3 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-royal-950 text-xs font-bold font-cinzel text-center tracking-wider transition-all shadow-md flex items-center justify-center gap-1.5">
-                <i class="fa-brands fa-whatsapp text-sm font-black"></i> Book This Look
-              </a>
-              <a href="https://www.instagram.com/reel/C_f3eqJN1NA/" target="_blank" rel="noopener noreferrer" 
-                 class="p-2 rounded-lg border border-gold-500/30 bg-royal-900/80 hover:bg-pink-900/60 text-pink-300 hover:text-white transition-all text-xs flex items-center justify-center" 
-                 title="Open on Instagram">
-                <i class="fa-brands fa-instagram text-base"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Video Card: Intricate Baby Shower & Mom-to-Be Mehendi -->
+        <!-- Video Card: Baby Shower & Mom-to-Be Storytelling Mehendi -->
         <div class="video-card-item group relative rounded-2xl overflow-hidden border border-gold-500/30 bg-royal-950/90 shadow-2xl hover:border-gold-400 transition-all flex flex-col justify-between" data-category="mehendi">
-          <!-- Playable Video Player Container -->
+          <!-- Playable Video Container -->
           <div class="relative w-full aspect-[9/16] max-h-[440px] bg-black overflow-hidden">
             <video
               class="w-full h-full object-cover"
@@ -1647,47 +1221,583 @@
               Your browser does not support HTML5 video.
             </video>
             
-            <!-- Floating Badges Overlay -->
+            <!-- Top Badges Overlay -->
             <div class="absolute top-3 left-3 pointer-events-none z-10">
               <span class="text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded-full bg-black/80 text-gold-300 border border-gold-500/50 backdrop-blur-sm flex items-center gap-1 shadow-lg">
-                <i class="fa-solid fa-hand-holding-heart text-xs text-gold-400"></i> Organic Henna
+                <i class="fa-solid fa-baby text-xs text-gold-400"></i> Mom-to-Be Special
               </span>
             </div>
             
             <div class="absolute top-3 right-3 z-10">
               <a href="https://www.instagram.com/reel/Dcv4nRoSXJ5/" target="_blank" rel="noopener noreferrer" 
                  class="px-2.5 py-1 rounded-full bg-black/80 hover:bg-gradient-to-r hover:from-amber-500 hover:to-pink-600 text-white text-[11px] font-medium border border-white/30 backdrop-blur-sm transition-all flex items-center gap-1 shadow-lg"
-                 title="View Reel on Instagram">
+                 title="Open on Instagram">
                 <i class="fa-brands fa-instagram text-pink-400"></i> Reel
               </a>
             </div>
           </div>
 
-          <!-- Video Details & Direct Booking Actions -->
+          <!-- Video Details & Actions -->
           <div class="p-4 sm:p-5 flex flex-col justify-between flex-grow space-y-3 bg-[#180407]">
             <div>
               <div class="flex items-center justify-between text-[11px] text-amber-300/80 mb-1 font-medium">
-                <span class="flex items-center gap-1"><i class="fa-solid fa-sparkles text-gold-400"></i> Mehendi Art</span>
+                <span class="flex items-center gap-1"><i class="fa-solid fa-sparkles text-gold-400"></i> Baby Shower Henna</span>
                 <span class="text-white/60 flex items-center gap-1"><i class="fa-regular fa-circle-play text-gold-400"></i> Playable HD Video</span>
               </div>
               <h3 class="text-base font-bold text-white font-serif-luxury leading-snug group-hover:text-gold-300 transition-colors">
-                Intricate Baby Shower & Mom-to-Be Mehendi
+                Baby Shower & Mom-to-Be Storytelling Mehendi
               </h3>
               <p class="text-xs text-amber-100/70 mt-1 line-clamp-2 leading-relaxed">
-                Deep staining organic henna featuring customized mom-to-be, baby in womb, and celebratory wedding motifs.
+                Celebratory mom-to-be henna featuring baby in womb illustration, couple figures, and auspicious ritual motifs.
               </p>
             </div>
 
             <!-- Card Booking Actions -->
             <div class="pt-3 border-t border-gold-500/20 flex items-center gap-2">
-              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu%2C%20I%20watched%20the%20video%20%27Intricate%20Baby%20Shower%20%26%20Mom-to-Be%20Mehendi%27%20on%20your%20website%20and%20would%20like%20to%20inquire%20about%20booking/ordering%20for%20my%20event%21" target="_blank" rel="noopener noreferrer" 
+              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu%2C%20I%20watched%20the%20video%20%27Baby%20Shower%20%26%20Mom-to-Be%20Storytelling%20Mehendi%27%20on%20your%20website%20and%20would%20like%20to%20inquire%20about%20booking/ordering%20for%20my%20event%21" target="_blank" rel="noopener noreferrer" 
                  class="flex-1 py-2 px-3 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-royal-950 text-xs font-bold font-cinzel text-center tracking-wider transition-all shadow-md flex items-center justify-center gap-1.5">
-                <i class="fa-brands fa-whatsapp text-sm font-black"></i> Book This Look
+                <i class="fa-brands fa-whatsapp text-sm font-black"></i> Book This Service
               </a>
               <a href="https://www.instagram.com/reel/Dcv4nRoSXJ5/" target="_blank" rel="noopener noreferrer" 
                  class="p-2 rounded-lg border border-gold-500/30 bg-royal-900/80 hover:bg-pink-900/60 text-pink-300 hover:text-white transition-all text-xs flex items-center justify-center" 
+                 title="View Details">
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Card: Bridal Storytelling & Arabic Henna Artistry -->
+        <div class="video-card-item group relative rounded-2xl overflow-hidden border border-gold-500/30 bg-royal-950/90 shadow-2xl hover:border-gold-400 transition-all flex flex-col justify-between" data-category="mehendi">
+          <!-- Playable Video Container -->
+          <div class="relative w-full aspect-[9/16] max-h-[440px] bg-black overflow-hidden">
+            <video
+              class="w-full h-full object-cover"
+              src="assets/videos/C0DZDd-PiN_.mp4"
+              poster="assets/thumbnails/C0DZDd-PiN_.jpg"
+              controls
+              playsinline
+              preload="metadata">
+              Your browser does not support HTML5 video.
+            </video>
+            
+            <!-- Top Badges Overlay -->
+            <div class="absolute top-3 left-3 pointer-events-none z-10">
+              <span class="text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded-full bg-black/80 text-gold-300 border border-gold-500/50 backdrop-blur-sm flex items-center gap-1 shadow-lg">
+                <i class="fa-solid fa-hand-sparkles text-xs text-gold-400"></i> Bridal Henna
+              </span>
+            </div>
+            
+            <div class="absolute top-3 right-3 z-10">
+              <a href="https://www.instagram.com/reel/C0DZDd-PiN_/" target="_blank" rel="noopener noreferrer" 
+                 class="px-2.5 py-1 rounded-full bg-black/80 hover:bg-gradient-to-r hover:from-amber-500 hover:to-pink-600 text-white text-[11px] font-medium border border-white/30 backdrop-blur-sm transition-all flex items-center gap-1 shadow-lg"
                  title="Open on Instagram">
-                <i class="fa-brands fa-instagram text-base"></i>
+                <i class="fa-brands fa-instagram text-pink-400"></i> Reel
+              </a>
+            </div>
+          </div>
+
+          <!-- Video Details & Actions -->
+          <div class="p-4 sm:p-5 flex flex-col justify-between flex-grow space-y-3 bg-[#180407]">
+            <div>
+              <div class="flex items-center justify-between text-[11px] text-amber-300/80 mb-1 font-medium">
+                <span class="flex items-center gap-1"><i class="fa-solid fa-sparkles text-gold-400"></i> Bridal Henna</span>
+                <span class="text-white/60 flex items-center gap-1"><i class="fa-regular fa-circle-play text-gold-400"></i> Playable HD Video</span>
+              </div>
+              <h3 class="text-base font-bold text-white font-serif-luxury leading-snug group-hover:text-gold-300 transition-colors">
+                Bridal Storytelling & Arabic Henna Artistry
+              </h3>
+              <p class="text-xs text-amber-100/70 mt-1 line-clamp-2 leading-relaxed">
+                Intricate, dark-staining organic henna with delicate peacocks, jaals, and Arabic flow for grand celebrations.
+              </p>
+            </div>
+
+            <!-- Card Booking Actions -->
+            <div class="pt-3 border-t border-gold-500/20 flex items-center gap-2">
+              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu%2C%20I%20watched%20the%20video%20%27Bridal%20Storytelling%20%26%20Arabic%20Henna%20Artistry%27%20on%20your%20website%20and%20would%20like%20to%20inquire%20about%20booking/ordering%20for%20my%20event%21" target="_blank" rel="noopener noreferrer" 
+                 class="flex-1 py-2 px-3 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-royal-950 text-xs font-bold font-cinzel text-center tracking-wider transition-all shadow-md flex items-center justify-center gap-1.5">
+                <i class="fa-brands fa-whatsapp text-sm font-black"></i> Book This Service
+              </a>
+              <a href="https://www.instagram.com/reel/C0DZDd-PiN_/" target="_blank" rel="noopener noreferrer" 
+                 class="p-2 rounded-lg border border-gold-500/30 bg-royal-900/80 hover:bg-pink-900/60 text-pink-300 hover:text-white transition-all text-xs flex items-center justify-center" 
+                 title="View Details">
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Card: Precision Saree Draping & Chest Pleat Styling -->
+        <div class="video-card-item group relative rounded-2xl overflow-hidden border border-gold-500/30 bg-royal-950/90 shadow-2xl hover:border-gold-400 transition-all flex flex-col justify-between" data-category="saree">
+          <!-- Playable Video Container -->
+          <div class="relative w-full aspect-[9/16] max-h-[440px] bg-black overflow-hidden">
+            <video
+              class="w-full h-full object-cover"
+              src="assets/videos/saree_draping_tutorial.mp4"
+              poster="assets/thumbnails/saree_draping_tutorial.jpg"
+              controls
+              playsinline
+              preload="metadata">
+              Your browser does not support HTML5 video.
+            </video>
+            
+            <!-- Top Badges Overlay -->
+            <div class="absolute top-3 left-3 pointer-events-none z-10">
+              <span class="text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded-full bg-black/80 text-gold-300 border border-gold-500/50 backdrop-blur-sm flex items-center gap-1 shadow-lg">
+                <i class="fa-solid fa-ribbon text-xs text-gold-400"></i> Precision Draping
+              </span>
+            </div>
+            
+            <div class="absolute top-3 right-3 z-10">
+              
+            </div>
+          </div>
+
+          <!-- Video Details & Actions -->
+          <div class="p-4 sm:p-5 flex flex-col justify-between flex-grow space-y-3 bg-[#180407]">
+            <div>
+              <div class="flex items-center justify-between text-[11px] text-amber-300/80 mb-1 font-medium">
+                <span class="flex items-center gap-1"><i class="fa-solid fa-sparkles text-gold-400"></i> Saree Draping</span>
+                <span class="text-white/60 flex items-center gap-1"><i class="fa-regular fa-circle-play text-gold-400"></i> Playable HD Video</span>
+              </div>
+              <h3 class="text-base font-bold text-white font-serif-luxury leading-snug group-hover:text-gold-300 transition-colors">
+                Precision Saree Draping & Chest Pleat Styling
+              </h3>
+              <p class="text-xs text-amber-100/70 mt-1 line-clamp-2 leading-relaxed">
+                Masterful pleating technique ensuring sculpted pallu fall, secure pin placement, and flawless saree silhouette.
+              </p>
+            </div>
+
+            <!-- Card Booking Actions -->
+            <div class="pt-3 border-t border-gold-500/20 flex items-center gap-2">
+              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu%2C%20I%20watched%20the%20video%20%27Precision%20Saree%20Draping%20%26%20Chest%20Pleat%20Styling%27%20on%20your%20website%20and%20would%20like%20to%20inquire%20about%20booking/ordering%20for%20my%20event%21" target="_blank" rel="noopener noreferrer" 
+                 class="flex-1 py-2 px-3 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-royal-950 text-xs font-bold font-cinzel text-center tracking-wider transition-all shadow-md flex items-center justify-center gap-1.5">
+                <i class="fa-brands fa-whatsapp text-sm font-black"></i> Book This Service
+              </a>
+              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu,%20I%20want%20to%20book%20Saree%20Draping%20/%2013-Pleats%20Box%20Folding!" target="_blank" rel="noopener noreferrer" 
+                 class="p-2 rounded-lg border border-gold-500/30 bg-royal-900/80 hover:bg-pink-900/60 text-pink-300 hover:text-white transition-all text-xs flex items-center justify-center" 
+                 title="View Details">
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Card: Custom Couple Photo Portrait Kobbari Bondam -->
+        <div class="video-card-item group relative rounded-2xl overflow-hidden border border-gold-500/30 bg-royal-950/90 shadow-2xl hover:border-gold-400 transition-all flex flex-col justify-between" data-category="pots">
+          <!-- Playable Video Container -->
+          <div class="relative w-full aspect-[9/16] max-h-[440px] bg-black overflow-hidden">
+            <video
+              class="w-full h-full object-cover"
+              src="assets/videos/C_f3eqJN1NA.mp4"
+              poster="assets/thumbnails/C_f3eqJN1NA.jpg"
+              controls
+              playsinline
+              preload="metadata">
+              Your browser does not support HTML5 video.
+            </video>
+            
+            <!-- Top Badges Overlay -->
+            <div class="absolute top-3 left-3 pointer-events-none z-10">
+              <span class="text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded-full bg-black/80 text-gold-300 border border-gold-500/50 backdrop-blur-sm flex items-center gap-1 shadow-lg">
+                <i class="fa-solid fa-heart text-xs text-gold-400"></i> Custom Photo Bondam
+              </span>
+            </div>
+            
+            <div class="absolute top-3 right-3 z-10">
+              <a href="https://www.instagram.com/reel/C_f3eqJN1NA/" target="_blank" rel="noopener noreferrer" 
+                 class="px-2.5 py-1 rounded-full bg-black/80 hover:bg-gradient-to-r hover:from-amber-500 hover:to-pink-600 text-white text-[11px] font-medium border border-white/30 backdrop-blur-sm transition-all flex items-center gap-1 shadow-lg"
+                 title="Open on Instagram">
+                <i class="fa-brands fa-instagram text-pink-400"></i> Reel
+              </a>
+            </div>
+          </div>
+
+          <!-- Video Details & Actions -->
+          <div class="p-4 sm:p-5 flex flex-col justify-between flex-grow space-y-3 bg-[#180407]">
+            <div>
+              <div class="flex items-center justify-between text-[11px] text-amber-300/80 mb-1 font-medium">
+                <span class="flex items-center gap-1"><i class="fa-solid fa-sparkles text-gold-400"></i> Kobbari Bondam</span>
+                <span class="text-white/60 flex items-center gap-1"><i class="fa-regular fa-circle-play text-gold-400"></i> Playable HD Video</span>
+              </div>
+              <h3 class="text-base font-bold text-white font-serif-luxury leading-snug group-hover:text-gold-300 transition-colors">
+                Custom Couple Photo Portrait Kobbari Bondam
+              </h3>
+              <p class="text-xs text-amber-100/70 mt-1 line-clamp-2 leading-relaxed">
+                Sacred tender coconut hand-decorated with customized bride-groom photo, green velvet, pearls, and red kundan stones.
+              </p>
+            </div>
+
+            <!-- Card Booking Actions -->
+            <div class="pt-3 border-t border-gold-500/20 flex items-center gap-2">
+              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu%2C%20I%20watched%20the%20video%20%27Custom%20Couple%20Photo%20Portrait%20Kobbari%20Bondam%27%20on%20your%20website%20and%20would%20like%20to%20inquire%20about%20booking/ordering%20for%20my%20event%21" target="_blank" rel="noopener noreferrer" 
+                 class="flex-1 py-2 px-3 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-royal-950 text-xs font-bold font-cinzel text-center tracking-wider transition-all shadow-md flex items-center justify-center gap-1.5">
+                <i class="fa-brands fa-whatsapp text-sm font-black"></i> Book This Service
+              </a>
+              <a href="https://www.instagram.com/reel/C_f3eqJN1NA/" target="_blank" rel="noopener noreferrer" 
+                 class="p-2 rounded-lg border border-gold-500/30 bg-royal-900/80 hover:bg-pink-900/60 text-pink-300 hover:text-white transition-all text-xs flex items-center justify-center" 
+                 title="View Details">
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Card: Royal Kundan & Pearl Wedding Pot -->
+        <div class="video-card-item group relative rounded-2xl overflow-hidden border border-gold-500/30 bg-royal-950/90 shadow-2xl hover:border-gold-400 transition-all flex flex-col justify-between" data-category="pots">
+          <!-- Playable Video Container -->
+          <div class="relative w-full aspect-[9/16] max-h-[440px] bg-black overflow-hidden">
+            <video
+              class="w-full h-full object-cover"
+              src="assets/videos/C0Ns-GuvLHi.mp4"
+              poster="assets/thumbnails/C0Ns-GuvLHi.jpg"
+              controls
+              playsinline
+              preload="metadata">
+              Your browser does not support HTML5 video.
+            </video>
+            
+            <!-- Top Badges Overlay -->
+            <div class="absolute top-3 left-3 pointer-events-none z-10">
+              <span class="text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded-full bg-black/80 text-gold-300 border border-gold-500/50 backdrop-blur-sm flex items-center gap-1 shadow-lg">
+                <i class="fa-solid fa-gem text-xs text-gold-400"></i> Royal Kundan Art
+              </span>
+            </div>
+            
+            <div class="absolute top-3 right-3 z-10">
+              <a href="https://www.instagram.com/reel/C0Ns-GuvLHi/" target="_blank" rel="noopener noreferrer" 
+                 class="px-2.5 py-1 rounded-full bg-black/80 hover:bg-gradient-to-r hover:from-amber-500 hover:to-pink-600 text-white text-[11px] font-medium border border-white/30 backdrop-blur-sm transition-all flex items-center gap-1 shadow-lg"
+                 title="Open on Instagram">
+                <i class="fa-brands fa-instagram text-pink-400"></i> Reel
+              </a>
+            </div>
+          </div>
+
+          <!-- Video Details & Actions -->
+          <div class="p-4 sm:p-5 flex flex-col justify-between flex-grow space-y-3 bg-[#180407]">
+            <div>
+              <div class="flex items-center justify-between text-[11px] text-amber-300/80 mb-1 font-medium">
+                <span class="flex items-center gap-1"><i class="fa-solid fa-sparkles text-gold-400"></i> Pelli Kundalu</span>
+                <span class="text-white/60 flex items-center gap-1"><i class="fa-regular fa-circle-play text-gold-400"></i> Playable HD Video</span>
+              </div>
+              <h3 class="text-base font-bold text-white font-serif-luxury leading-snug group-hover:text-gold-300 transition-colors">
+                Royal Kundan & Pearl Wedding Pot
+              </h3>
+              <p class="text-xs text-amber-100/70 mt-1 line-clamp-2 leading-relaxed">
+                Dazzling handcrafted Telugu wedding pot adorned with sparkling golden lace, peacock motifs, and royal kundan work.
+              </p>
+            </div>
+
+            <!-- Card Booking Actions -->
+            <div class="pt-3 border-t border-gold-500/20 flex items-center gap-2">
+              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu%2C%20I%20watched%20the%20video%20%27Royal%20Kundan%20%26%20Pearl%20Wedding%20Pot%27%20on%20your%20website%20and%20would%20like%20to%20inquire%20about%20booking/ordering%20for%20my%20event%21" target="_blank" rel="noopener noreferrer" 
+                 class="flex-1 py-2 px-3 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-royal-950 text-xs font-bold font-cinzel text-center tracking-wider transition-all shadow-md flex items-center justify-center gap-1.5">
+                <i class="fa-brands fa-whatsapp text-sm font-black"></i> Book This Service
+              </a>
+              <a href="https://www.instagram.com/reel/C0Ns-GuvLHi/" target="_blank" rel="noopener noreferrer" 
+                 class="p-2 rounded-lg border border-gold-500/30 bg-royal-900/80 hover:bg-pink-900/60 text-pink-300 hover:text-white transition-all text-xs flex items-center justify-center" 
+                 title="View Details">
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Card: Traditional Hand-Painted Irandlu & Gariga Muntha -->
+        <div class="video-card-item group relative rounded-2xl overflow-hidden border border-gold-500/30 bg-royal-950/90 shadow-2xl hover:border-gold-400 transition-all flex flex-col justify-between" data-category="pots">
+          <!-- Playable Video Container -->
+          <div class="relative w-full aspect-[9/16] max-h-[440px] bg-black overflow-hidden">
+            <video
+              class="w-full h-full object-cover"
+              src="assets/videos/C0Ek_RIPWO9.mp4"
+              poster="assets/thumbnails/C0Ek_RIPWO9.jpg"
+              controls
+              playsinline
+              preload="metadata">
+              Your browser does not support HTML5 video.
+            </video>
+            
+            <!-- Top Badges Overlay -->
+            <div class="absolute top-3 left-3 pointer-events-none z-10">
+              <span class="text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded-full bg-black/80 text-gold-300 border border-gold-500/50 backdrop-blur-sm flex items-center gap-1 shadow-lg">
+                <i class="fa-solid fa-palette text-xs text-gold-400"></i> Hand-Painted Irandlu
+              </span>
+            </div>
+            
+            <div class="absolute top-3 right-3 z-10">
+              <a href="https://www.instagram.com/reel/C0Ek_RIPWO9/" target="_blank" rel="noopener noreferrer" 
+                 class="px-2.5 py-1 rounded-full bg-black/80 hover:bg-gradient-to-r hover:from-amber-500 hover:to-pink-600 text-white text-[11px] font-medium border border-white/30 backdrop-blur-sm transition-all flex items-center gap-1 shadow-lg"
+                 title="Open on Instagram">
+                <i class="fa-brands fa-instagram text-pink-400"></i> Reel
+              </a>
+            </div>
+          </div>
+
+          <!-- Video Details & Actions -->
+          <div class="p-4 sm:p-5 flex flex-col justify-between flex-grow space-y-3 bg-[#180407]">
+            <div>
+              <div class="flex items-center justify-between text-[11px] text-amber-300/80 mb-1 font-medium">
+                <span class="flex items-center gap-1"><i class="fa-solid fa-sparkles text-gold-400"></i> Gariga Muntha</span>
+                <span class="text-white/60 flex items-center gap-1"><i class="fa-regular fa-circle-play text-gold-400"></i> Playable HD Video</span>
+              </div>
+              <h3 class="text-base font-bold text-white font-serif-luxury leading-snug group-hover:text-gold-300 transition-colors">
+                Traditional Hand-Painted Irandlu & Gariga Muntha
+              </h3>
+              <p class="text-xs text-amber-100/70 mt-1 line-clamp-2 leading-relaxed">
+                Authentic ceremonial wedding pots hand-painted with auspicious floral patterns, temple borders, and divine ritual colors.
+              </p>
+            </div>
+
+            <!-- Card Booking Actions -->
+            <div class="pt-3 border-t border-gold-500/20 flex items-center gap-2">
+              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu%2C%20I%20watched%20the%20video%20%27Traditional%20Hand-Painted%20Irandlu%20%26%20Gariga%20Muntha%27%20on%20your%20website%20and%20would%20like%20to%20inquire%20about%20booking/ordering%20for%20my%20event%21" target="_blank" rel="noopener noreferrer" 
+                 class="flex-1 py-2 px-3 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-royal-950 text-xs font-bold font-cinzel text-center tracking-wider transition-all shadow-md flex items-center justify-center gap-1.5">
+                <i class="fa-brands fa-whatsapp text-sm font-black"></i> Book This Service
+              </a>
+              <a href="https://www.instagram.com/reel/C0Ek_RIPWO9/" target="_blank" rel="noopener noreferrer" 
+                 class="p-2 rounded-lg border border-gold-500/30 bg-royal-900/80 hover:bg-pink-900/60 text-pink-300 hover:text-white transition-all text-xs flex items-center justify-center" 
+                 title="View Details">
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Card: Tiered Auspicious Marriage Pots Collection -->
+        <div class="video-card-item group relative rounded-2xl overflow-hidden border border-gold-500/30 bg-royal-950/90 shadow-2xl hover:border-gold-400 transition-all flex flex-col justify-between" data-category="pots">
+          <!-- Playable Video Container -->
+          <div class="relative w-full aspect-[9/16] max-h-[440px] bg-black overflow-hidden">
+            <video
+              class="w-full h-full object-cover"
+              src="assets/videos/C0HUmw8P6Vj.mp4"
+              poster="assets/thumbnails/C0HUmw8P6Vj.jpg"
+              controls
+              playsinline
+              preload="metadata">
+              Your browser does not support HTML5 video.
+            </video>
+            
+            <!-- Top Badges Overlay -->
+            <div class="absolute top-3 left-3 pointer-events-none z-10">
+              <span class="text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded-full bg-black/80 text-gold-300 border border-gold-500/50 backdrop-blur-sm flex items-center gap-1 shadow-lg">
+                <i class="fa-solid fa-layer-group text-xs text-gold-400"></i> Tiered Pelli Kundalu
+              </span>
+            </div>
+            
+            <div class="absolute top-3 right-3 z-10">
+              <a href="https://www.instagram.com/reel/C0HUmw8P6Vj/" target="_blank" rel="noopener noreferrer" 
+                 class="px-2.5 py-1 rounded-full bg-black/80 hover:bg-gradient-to-r hover:from-amber-500 hover:to-pink-600 text-white text-[11px] font-medium border border-white/30 backdrop-blur-sm transition-all flex items-center gap-1 shadow-lg"
+                 title="Open on Instagram">
+                <i class="fa-brands fa-instagram text-pink-400"></i> Reel
+              </a>
+            </div>
+          </div>
+
+          <!-- Video Details & Actions -->
+          <div class="p-4 sm:p-5 flex flex-col justify-between flex-grow space-y-3 bg-[#180407]">
+            <div>
+              <div class="flex items-center justify-between text-[11px] text-amber-300/80 mb-1 font-medium">
+                <span class="flex items-center gap-1"><i class="fa-solid fa-sparkles text-gold-400"></i> Auspicious Pots</span>
+                <span class="text-white/60 flex items-center gap-1"><i class="fa-regular fa-circle-play text-gold-400"></i> Playable HD Video</span>
+              </div>
+              <h3 class="text-base font-bold text-white font-serif-luxury leading-snug group-hover:text-gold-300 transition-colors">
+                Tiered Auspicious Marriage Pots Collection
+              </h3>
+              <p class="text-xs text-amber-100/70 mt-1 line-clamp-2 leading-relaxed">
+                Three-tiered ceremonial pot sets designed for house ceremonies, Mandapam pujas, and traditional Telugu wedding rituals.
+              </p>
+            </div>
+
+            <!-- Card Booking Actions -->
+            <div class="pt-3 border-t border-gold-500/20 flex items-center gap-2">
+              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu%2C%20I%20watched%20the%20video%20%27Tiered%20Auspicious%20Marriage%20Pots%20Collection%27%20on%20your%20website%20and%20would%20like%20to%20inquire%20about%20booking/ordering%20for%20my%20event%21" target="_blank" rel="noopener noreferrer" 
+                 class="flex-1 py-2 px-3 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-royal-950 text-xs font-bold font-cinzel text-center tracking-wider transition-all shadow-md flex items-center justify-center gap-1.5">
+                <i class="fa-brands fa-whatsapp text-sm font-black"></i> Book This Service
+              </a>
+              <a href="https://www.instagram.com/reel/C0HUmw8P6Vj/" target="_blank" rel="noopener noreferrer" 
+                 class="p-2 rounded-lg border border-gold-500/30 bg-royal-900/80 hover:bg-pink-900/60 text-pink-300 hover:text-white transition-all text-xs flex items-center justify-center" 
+                 title="View Details">
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Card: Handcrafted Kundan Dry Coconut Set (Kudukalu) -->
+        <div class="video-card-item group relative rounded-2xl overflow-hidden border border-gold-500/30 bg-royal-950/90 shadow-2xl hover:border-gold-400 transition-all flex flex-col justify-between" data-category="pots">
+          <!-- Playable Video Container -->
+          <div class="relative w-full aspect-[9/16] max-h-[440px] bg-black overflow-hidden">
+            <video
+              class="w-full h-full object-cover"
+              src="assets/videos/C0JjdFKRaLr.mp4"
+              poster="assets/thumbnails/C0JjdFKRaLr.jpg"
+              controls
+              playsinline
+              preload="metadata">
+              Your browser does not support HTML5 video.
+            </video>
+            
+            <!-- Top Badges Overlay -->
+            <div class="absolute top-3 left-3 pointer-events-none z-10">
+              <span class="text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded-full bg-black/80 text-gold-300 border border-gold-500/50 backdrop-blur-sm flex items-center gap-1 shadow-lg">
+                <i class="fa-solid fa-circle text-xs text-gold-400"></i> Kundan Kudukalu
+              </span>
+            </div>
+            
+            <div class="absolute top-3 right-3 z-10">
+              <a href="https://www.instagram.com/reel/C0JjdFKRaLr/" target="_blank" rel="noopener noreferrer" 
+                 class="px-2.5 py-1 rounded-full bg-black/80 hover:bg-gradient-to-r hover:from-amber-500 hover:to-pink-600 text-white text-[11px] font-medium border border-white/30 backdrop-blur-sm transition-all flex items-center gap-1 shadow-lg"
+                 title="Open on Instagram">
+                <i class="fa-brands fa-instagram text-pink-400"></i> Reel
+              </a>
+            </div>
+          </div>
+
+          <!-- Video Details & Actions -->
+          <div class="p-4 sm:p-5 flex flex-col justify-between flex-grow space-y-3 bg-[#180407]">
+            <div>
+              <div class="flex items-center justify-between text-[11px] text-amber-300/80 mb-1 font-medium">
+                <span class="flex items-center gap-1"><i class="fa-solid fa-sparkles text-gold-400"></i> Dry Coconut (Kudukalu)</span>
+                <span class="text-white/60 flex items-center gap-1"><i class="fa-regular fa-circle-play text-gold-400"></i> Playable HD Video</span>
+              </div>
+              <h3 class="text-base font-bold text-white font-serif-luxury leading-snug group-hover:text-gold-300 transition-colors">
+                Handcrafted Kundan Dry Coconut Set (Kudukalu)
+              </h3>
+              <p class="text-xs text-amber-100/70 mt-1 line-clamp-2 leading-relaxed">
+                Pair of ceremonial dried coconut halves (Kudukalu) embellished with fine pearl borders, red gemstones, and golden gota.
+              </p>
+            </div>
+
+            <!-- Card Booking Actions -->
+            <div class="pt-3 border-t border-gold-500/20 flex items-center gap-2">
+              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu%2C%20I%20watched%20the%20video%20%27Handcrafted%20Kundan%20Dry%20Coconut%20Set%20%28Kudukalu%29%27%20on%20your%20website%20and%20would%20like%20to%20inquire%20about%20booking/ordering%20for%20my%20event%21" target="_blank" rel="noopener noreferrer" 
+                 class="flex-1 py-2 px-3 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-royal-950 text-xs font-bold font-cinzel text-center tracking-wider transition-all shadow-md flex items-center justify-center gap-1.5">
+                <i class="fa-brands fa-whatsapp text-sm font-black"></i> Book This Service
+              </a>
+              <a href="https://www.instagram.com/reel/C0JjdFKRaLr/" target="_blank" rel="noopener noreferrer" 
+                 class="p-2 rounded-lg border border-gold-500/30 bg-royal-900/80 hover:bg-pink-900/60 text-pink-300 hover:text-white transition-all text-xs flex items-center justify-center" 
+                 title="View Details">
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Card: Sacred Polumuntalu & Kundan Ceremony Pottery -->
+        <div class="video-card-item group relative rounded-2xl overflow-hidden border border-gold-500/30 bg-royal-950/90 shadow-2xl hover:border-gold-400 transition-all flex flex-col justify-between" data-category="pots">
+          <!-- Playable Video Container -->
+          <div class="relative w-full aspect-[9/16] max-h-[440px] bg-black overflow-hidden">
+            <video
+              class="w-full h-full object-cover"
+              src="assets/videos/C0MbmVJvEUO.mp4"
+              poster="assets/thumbnails/C0MbmVJvEUO.jpg"
+              controls
+              playsinline
+              preload="metadata">
+              Your browser does not support HTML5 video.
+            </video>
+            
+            <!-- Top Badges Overlay -->
+            <div class="absolute top-3 left-3 pointer-events-none z-10">
+              <span class="text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded-full bg-black/80 text-gold-300 border border-gold-500/50 backdrop-blur-sm flex items-center gap-1 shadow-lg">
+                <i class="fa-solid fa-award text-xs text-gold-400"></i> Polumuntalu Craft
+              </span>
+            </div>
+            
+            <div class="absolute top-3 right-3 z-10">
+              <a href="https://www.instagram.com/reel/C0MbmVJvEUO/" target="_blank" rel="noopener noreferrer" 
+                 class="px-2.5 py-1 rounded-full bg-black/80 hover:bg-gradient-to-r hover:from-amber-500 hover:to-pink-600 text-white text-[11px] font-medium border border-white/30 backdrop-blur-sm transition-all flex items-center gap-1 shadow-lg"
+                 title="Open on Instagram">
+                <i class="fa-brands fa-instagram text-pink-400"></i> Reel
+              </a>
+            </div>
+          </div>
+
+          <!-- Video Details & Actions -->
+          <div class="p-4 sm:p-5 flex flex-col justify-between flex-grow space-y-3 bg-[#180407]">
+            <div>
+              <div class="flex items-center justify-between text-[11px] text-amber-300/80 mb-1 font-medium">
+                <span class="flex items-center gap-1"><i class="fa-solid fa-sparkles text-gold-400"></i> Polumuntalu</span>
+                <span class="text-white/60 flex items-center gap-1"><i class="fa-regular fa-circle-play text-gold-400"></i> Playable HD Video</span>
+              </div>
+              <h3 class="text-base font-bold text-white font-serif-luxury leading-snug group-hover:text-gold-300 transition-colors">
+                Sacred Polumuntalu & Kundan Ceremony Pottery
+              </h3>
+              <p class="text-xs text-amber-100/70 mt-1 line-clamp-2 leading-relaxed">
+                Ceremonial pots decorated with intricate kundan laces and rich velvet accents for traditional feast and post-wedding pujas.
+              </p>
+            </div>
+
+            <!-- Card Booking Actions -->
+            <div class="pt-3 border-t border-gold-500/20 flex items-center gap-2">
+              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu%2C%20I%20watched%20the%20video%20%27Sacred%20Polumuntalu%20%26%20Kundan%20Ceremony%20Pottery%27%20on%20your%20website%20and%20would%20like%20to%20inquire%20about%20booking/ordering%20for%20my%20event%21" target="_blank" rel="noopener noreferrer" 
+                 class="flex-1 py-2 px-3 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-royal-950 text-xs font-bold font-cinzel text-center tracking-wider transition-all shadow-md flex items-center justify-center gap-1.5">
+                <i class="fa-brands fa-whatsapp text-sm font-black"></i> Book This Service
+              </a>
+              <a href="https://www.instagram.com/reel/C0MbmVJvEUO/" target="_blank" rel="noopener noreferrer" 
+                 class="p-2 rounded-lg border border-gold-500/30 bg-royal-900/80 hover:bg-pink-900/60 text-pink-300 hover:text-white transition-all text-xs flex items-center justify-center" 
+                 title="View Details">
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Card: Ceremonial Painted Wedding Pottery Collection -->
+        <div class="video-card-item group relative rounded-2xl overflow-hidden border border-gold-500/30 bg-royal-950/90 shadow-2xl hover:border-gold-400 transition-all flex flex-col justify-between" data-category="pots">
+          <!-- Playable Video Container -->
+          <div class="relative w-full aspect-[9/16] max-h-[440px] bg-black overflow-hidden">
+            <video
+              class="w-full h-full object-cover"
+              src="assets/videos/C0QPpPsx32n.mp4"
+              poster="assets/thumbnails/C0QPpPsx32n.jpg"
+              controls
+              playsinline
+              preload="metadata">
+              Your browser does not support HTML5 video.
+            </video>
+            
+            <!-- Top Badges Overlay -->
+            <div class="absolute top-3 left-3 pointer-events-none z-10">
+              <span class="text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded-full bg-black/80 text-gold-300 border border-gold-500/50 backdrop-blur-sm flex items-center gap-1 shadow-lg">
+                <i class="fa-solid fa-crown text-xs text-gold-400"></i> Mandap Pottery
+              </span>
+            </div>
+            
+            <div class="absolute top-3 right-3 z-10">
+              <a href="https://www.instagram.com/reel/C0QPpPsx32n/" target="_blank" rel="noopener noreferrer" 
+                 class="px-2.5 py-1 rounded-full bg-black/80 hover:bg-gradient-to-r hover:from-amber-500 hover:to-pink-600 text-white text-[11px] font-medium border border-white/30 backdrop-blur-sm transition-all flex items-center gap-1 shadow-lg"
+                 title="Open on Instagram">
+                <i class="fa-brands fa-instagram text-pink-400"></i> Reel
+              </a>
+            </div>
+          </div>
+
+          <!-- Video Details & Actions -->
+          <div class="p-4 sm:p-5 flex flex-col justify-between flex-grow space-y-3 bg-[#180407]">
+            <div>
+              <div class="flex items-center justify-between text-[11px] text-amber-300/80 mb-1 font-medium">
+                <span class="flex items-center gap-1"><i class="fa-solid fa-sparkles text-gold-400"></i> Mandap Pottery</span>
+                <span class="text-white/60 flex items-center gap-1"><i class="fa-regular fa-circle-play text-gold-400"></i> Playable HD Video</span>
+              </div>
+              <h3 class="text-base font-bold text-white font-serif-luxury leading-snug group-hover:text-gold-300 transition-colors">
+                Ceremonial Painted Wedding Pottery Collection
+              </h3>
+              <p class="text-xs text-amber-100/70 mt-1 line-clamp-2 leading-relaxed">
+                Vibrant and auspicious South Indian wedding pots crafted for ritual purity and breathtaking mandap photography.
+              </p>
+            </div>
+
+            <!-- Card Booking Actions -->
+            <div class="pt-3 border-t border-gold-500/20 flex items-center gap-2">
+              <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu%2C%20I%20watched%20the%20video%20%27Ceremonial%20Painted%20Wedding%20Pottery%20Collection%27%20on%20your%20website%20and%20would%20like%20to%20inquire%20about%20booking/ordering%20for%20my%20event%21" target="_blank" rel="noopener noreferrer" 
+                 class="flex-1 py-2 px-3 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-royal-950 text-xs font-bold font-cinzel text-center tracking-wider transition-all shadow-md flex items-center justify-center gap-1.5">
+                <i class="fa-brands fa-whatsapp text-sm font-black"></i> Book This Service
+              </a>
+              <a href="https://www.instagram.com/reel/C0QPpPsx32n/" target="_blank" rel="noopener noreferrer" 
+                 class="p-2 rounded-lg border border-gold-500/30 bg-royal-900/80 hover:bg-pink-900/60 text-pink-300 hover:text-white transition-all text-xs flex items-center justify-center" 
+                 title="View Details">
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
               </a>
             </div>
           </div>
@@ -1697,10 +1807,10 @@
       <!-- Video CTA Banner -->
       <div class="mt-16 text-center bg-gradient-to-r from-royal-900 via-royal-950 to-royal-900 p-8 rounded-3xl border border-gold-500/40 shadow-2xl relative overflow-hidden">
         <div class="max-w-2xl mx-auto space-y-4 relative z-10">
-          <span class="text-xs font-cinzel text-gold-400 uppercase tracking-widest font-bold">Have a specific design or look in mind?</span>
-          <h3 class="text-2xl sm:text-3xl font-serif-luxury font-bold text-white">Let Swetha D Bring Your Dream Bridal Look to Life</h3>
+          <span class="text-xs font-cinzel text-gold-400 uppercase tracking-widest font-bold">Have a custom wedding design in mind?</span>
+          <h3 class="text-2xl sm:text-3xl font-serif-luxury font-bold text-white">Handcrafted Telugu Wedding Pots & Bridal Artistry</h3>
           <p class="text-xs sm:text-sm text-amber-100/80">
-            Share your reference photo or Instagram reel with Swetha on WhatsApp for customized consultation and tailored event quotes.
+            Share your reference photo or Instagram reel with Swetha on WhatsApp for personalized consultation and custom package quotes.
           </p>
           <div class="pt-2 flex flex-wrap justify-center gap-4">
             <a href="https://wa.me/918498919974?text=Hello%20Swetha%20garu,%20I%20have%20a%20reference%20video/photo%20for%20my%20event%20and%20would%20like%20to%20consult%20with%20you!" target="_blank" rel="noopener noreferrer" class="gold-button px-6 py-3 rounded-full text-xs font-bold font-cinzel tracking-wider flex items-center gap-2 shadow-lg">
