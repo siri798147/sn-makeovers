@@ -110,6 +110,20 @@ const SN_DATA = {
   ],
   categories: [
     {
+      id: 'nail-art',
+      name: 'Nail Artistry & Academy Course',
+      badge: 'Certified Training',
+      description: 'Bridal 3D acrylic extensions, gel overlays, chrome finishes, and certified beginner-to-advanced hands-on nail courses.',
+      image: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=800&q=80',
+      items: [
+        { name: 'Bridal 3D Nail Art', tag: 'Bridal Special', desc: 'Custom 3D sculpted acrylic flowers, Swarovski crystals, and kundan embellishments.' },
+        { name: 'Gel Polish & Overlays', tag: 'Long-Lasting', desc: 'High-shine chip-resistant gel polish with UV curing lasting up to 4+ weeks.' },
+        { name: 'Acrylic Tip Extensions', tag: 'Full Set', desc: 'Custom shaped and sized extensions in coffin, almond, square, and stiletto silhouettes.' },
+        { name: 'Certified Nail Art Course', tag: 'Academy Training', desc: 'Complete hands-on certification training taught by Swetha D for aspiring artists.' }
+      ]
+    },
+
+    {
       id: 'makeup',
       name: 'Makeup Artistry',
       badge: 'HD & Waterproof',
