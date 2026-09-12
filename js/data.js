@@ -1,13 +1,15 @@
 // SN MAKEOVERS - Business Data & Catalog
-// Artist: Swetha D | Phone: 8498919974
+// Artist: Renikunta Swetha (Swetha D) | Phone: 8498919974 / 8977632996 / 9603123403
 
 const SN_DATA = {
   business: {
     name: 'SN MAKEOVERS',
     tagline: 'Bridal Artistry, Royal Hairstyles & Traditional Wedding Essentials',
-    owner: 'Swetha D',
-    title: 'Professional Makeup Artist, Hairstylist, Saree Draper & Wedding Craft Artisan',
+    owner: 'Renikunta Swetha',
+    alias: 'Swetha D',
+    title: 'Certified Bridal Makeup Artist, Hairstylist, Saree Draper & Wedding Craft Artisan',
     phone: '8498919974',
+    altPhones: ['8977632996', '9603123403'],
     phoneDisplay: '+91 84989 19974',
     whatsappLink: 'https://wa.me/918498919974',
     experience: '5+ Years of Dedicated Artistry',
@@ -15,286 +17,247 @@ const SN_DATA = {
     serviceAreas: 'Available for on-location & destination events across Telangana & Andhra Pradesh'
   },
 
-  
   videos: [
     {
       id: "Cz6Dg0jpi1D",
-      title: "Bridal & Event Glam Makeover",
+      title: "Royal Telugu Bridal Muhurtham Makeover",
       category: "bridal",
-      categoryLabel: "Bridal Glam",
-      caption: "Flawless HD radiant bridal glow and elegant styling for grand celebrations.",
+      categoryLabel: "Bridal Signature",
+      caption: "Flawless HD radiant bridal glow, temple jewelry styling, and pattu saree draping for grand celebrations.",
       videoSrc: "assets/videos/Cz6Dg0jpi1D.mp4",
       poster: "assets/thumbnails/Cz6Dg0jpi1D.jpg",
-      tag: "Bridal Signature"
-    },
-    {
-      id: "C0DZDd-PiN_",
-      title: "Bridal Storytelling Mehendi",
-      category: "mehendi",
-      categoryLabel: "Bridal Mehendi",
-      caption: "Intricate, dark-staining organic bridal henna with delicate florals and jaals.",
-      videoSrc: "assets/videos/C0DZDd-PiN_.mp4",
-      poster: "assets/thumbnails/C0DZDd-PiN_.jpg",
-      tag: "100% Organic Henna"
-    },
-    {
-      id: "C0Ek_RIPWO9",
-      title: "Sacred Pelli Kundalu & Kundan Pots",
-      category: "pots",
-      categoryLabel: "Pelli Kundalu",
-      caption: "Handcrafted Telugu wedding pots adorned with sparkling kundan crystal stones.",
-      videoSrc: "assets/videos/C0Ek_RIPWO9.mp4",
-      poster: "assets/thumbnails/C0Ek_RIPWO9.jpg",
-      tag: "Handcrafted Heritage"
-    },
-    {
-      id: "C0HUmw8P6Vj",
-      title: "Gariga Muntha & Irandla Kundalu Set",
-      category: "pots",
-      categoryLabel: "Gariga Muntha",
-      caption: "The sacred centerpiece bride's pot and twin prosperity pots crafted to perfection.",
-      videoSrc: "assets/videos/C0HUmw8P6Vj.mp4",
-      poster: "assets/thumbnails/C0HUmw8P6Vj.jpg",
-      tag: "Telugu Tradition"
-    },
-    {
-      id: "C0JjdFKRaLr",
-      title: "Dry Coconut (Kudakalu) Kundan Art",
-      category: "pots",
-      categoryLabel: "Sacred Coconuts",
-      caption: "Sacred Jeelakarra Bellam dry coconuts decorated with intricate kundan stone craft.",
-      videoSrc: "assets/videos/C0JjdFKRaLr.mp4",
-      poster: "assets/thumbnails/C0JjdFKRaLr.jpg",
-      tag: "Jeelakarra Bellam"
+      instaUrl: "https://www.instagram.com/reel/Cz6Dg0jpi1D/",
+      tag: "Signature Bride"
     },
     {
       id: "C08ktnCR3H3",
-      title: "Bridal Order Preparation Vlog",
-      category: "bridal",
-      categoryLabel: "Behind The Scenes",
-      caption: "A look into how Swetha D meticulously prepares every bridal order and wedding set.",
+      title: "Muhurtham Braid & Jasmine Poola Jada",
+      category: "hairstyles",
+      categoryLabel: "Bridal Hairstyle",
+      caption: "Traditional South Indian wedding braid adorned with fresh fragrant jasmine, veni, and gold brooches.",
       videoSrc: "assets/videos/C08ktnCR3H3.mp4",
       poster: "assets/thumbnails/C08ktnCR3H3.jpg",
-      tag: "Order Vlog"
+      instaUrl: "https://www.instagram.com/reel/C08ktnCR3H3/",
+      tag: "Poola Jada Art"
     },
     {
       id: "C0QPpPsx32n",
-      title: "Polu Muntalu & Ritual Pots",
-      category: "pots",
-      categoryLabel: "Ritual Pots",
-      caption: "Set of traditional ceremony pots crafted for sacred Telugu wedding rituals.",
+      title: "Signature 13-Pleats Saree Box Folding",
+      category: "saree",
+      categoryLabel: "Saree Folding",
+      caption: "Masterful box pleating and pressing technique ensuring crisp, pin-free, zero-stress bridal dressing.",
       videoSrc: "assets/videos/C0QPpPsx32n.mp4",
       poster: "assets/thumbnails/C0QPpPsx32n.jpg",
-      tag: "Set of 4 Pots"
+      instaUrl: "https://www.instagram.com/reel/C0QPpPsx32n/",
+      tag: "13-Pleats Signature"
     },
     {
       id: "C0Ns-GuvLHi",
-      title: "Royal Kundan Work Wedding Pots",
-      category: "pots",
-      categoryLabel: "Kundan Pots",
-      caption: "Dazzling stone-studded sacred pots that sparkle under wedding mandap lights.",
+      title: "Royal South Indian Bride Transformation",
+      category: "bridal",
+      categoryLabel: "Bridal Makeover",
+      caption: "Authentic wedding day bridal aesthetics with sweat-proof long-wear HD base and rich gold highlights.",
       videoSrc: "assets/videos/C0Ns-GuvLHi.mp4",
       poster: "assets/thumbnails/C0Ns-GuvLHi.jpg",
-      tag: "Royal Kundan"
+      instaUrl: "https://www.instagram.com/reel/C0Ns-GuvLHi/",
+      tag: "HD Bridal Glow"
     },
     {
       id: "C0MbmVJvEUO",
-      title: "Handcrafted Wedding Essentials Collection",
-      category: "pots",
-      categoryLabel: "Wedding Craft",
-      caption: "Complete custom handcrafted wedding collection for traditional Telugu marriages.",
+      title: "Classic Reception Bun & Floral Crown",
+      category: "hairstyles",
+      categoryLabel: "Reception Hair",
+      caption: "Voluminous structured floral bun tailored for grand wedding receptions, sangeets, and cocktail nights.",
       videoSrc: "assets/videos/C0MbmVJvEUO.mp4",
       poster: "assets/thumbnails/C0MbmVJvEUO.jpg",
-      tag: "Custom Order"
+      instaUrl: "https://www.instagram.com/reel/C0MbmVJvEUO/",
+      tag: "Reception Glam"
+    },
+    {
+      id: "C0JjdFKRaLr",
+      title: "Engagement & Haldi Dewy Glam Look",
+      category: "bridal",
+      categoryLabel: "Event Makeover",
+      caption: "Fresh, contemporary luminous look featuring soft shimmer eyes, rosy blush, and perfect contouring.",
+      videoSrc: "assets/videos/C0JjdFKRaLr.mp4",
+      poster: "assets/thumbnails/C0JjdFKRaLr.jpg",
+      instaUrl: "https://www.instagram.com/reel/C0JjdFKRaLr/",
+      tag: "Dewy Glam"
+    },
+    {
+      id: "C0HUmw8P6Vj",
+      title: "Waterfall Curls & Bollywood Waves",
+      category: "hairstyles",
+      categoryLabel: "Hair Styling",
+      caption: "Cascading textured open hair curls designed for contemporary party gowns, lehengas, and festivities.",
+      videoSrc: "assets/videos/C0HUmw8P6Vj.mp4",
+      poster: "assets/thumbnails/C0HUmw8P6Vj.jpg",
+      instaUrl: "https://www.instagram.com/reel/C0HUmw8P6Vj/",
+      tag: "Bollywood Waves"
+    },
+    {
+      id: "C0Ek_RIPWO9",
+      title: "Flawless Saree Silhouette & Pleat Styling",
+      category: "saree",
+      categoryLabel: "Saree Draping",
+      caption: "Sculpted saree draping providing effortless mobility, slender waist tucks, and crisp pallu fall.",
+      videoSrc: "assets/videos/C0Ek_RIPWO9.mp4",
+      poster: "assets/thumbnails/C0Ek_RIPWO9.jpg",
+      instaUrl: "https://www.instagram.com/reel/C0Ek_RIPWO9/",
+      tag: "Perfect Draping"
+    },
+    {
+      id: "C0DZDd-PiN_",
+      title: "Vibrant Haldi & Mehendi Celebration Makeover",
+      category: "bridal",
+      categoryLabel: "Festive Look",
+      caption: "Vibrant and cheerful festive styling designed to remain fresh and photo-ready through rituals and dancing.",
+      videoSrc: "assets/videos/C0DZDd-PiN_.mp4",
+      poster: "assets/thumbnails/C0DZDd-PiN_.jpg",
+      instaUrl: "https://www.instagram.com/reel/C0DZDd-PiN_/",
+      tag: "Festive Glow"
+    },
+    {
+      id: "C_f3eqJN1NA",
+      title: "Custom Couple Photo Kobbari Bondam",
+      category: "pots",
+      categoryLabel: "Wedding Pots",
+      caption: "Sacred tender coconut hand-decorated with bride-groom portrait, rich green velvet, pearls, and kundan stones.",
+      videoSrc: "assets/videos/C_f3eqJN1NA.mp4",
+      poster: "assets/thumbnails/C_f3eqJN1NA.jpg",
+      instaUrl: "https://www.instagram.com/reel/C_f3eqJN1NA/",
+      tag: "Custom Bondam"
+    },
+    {
+      id: "Dcv4nRoSXJ5",
+      title: "Intricate Baby Shower & Mom-to-Be Mehendi",
+      category: "mehendi",
+      categoryLabel: "Mehendi Art",
+      caption: "Deep staining organic henna featuring customized mom-to-be, baby in womb, and celebratory wedding motifs.",
+      videoSrc: "assets/videos/Dcv4nRoSXJ5.mp4",
+      poster: "assets/thumbnails/Dcv4nRoSXJ5.jpg",
+      instaUrl: "https://www.instagram.com/reel/Dcv4nRoSXJ5/",
+      tag: "Organic Henna"
     }
   ],
-  categories: [
-    {
-      id: 'nail-art',
-      name: 'Nail Artistry & Academy Course',
-      badge: 'Certified Training',
-      description: 'Bridal 3D acrylic extensions, gel overlays, chrome finishes, and certified beginner-to-advanced hands-on nail courses.',
-      image: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=800&q=80',
-      items: [
-        { name: 'Bridal 3D Nail Art', tag: 'Bridal Special', desc: 'Custom 3D sculpted acrylic flowers, Swarovski crystals, and kundan embellishments.' },
-        { name: 'Gel Polish & Overlays', tag: 'Long-Lasting', desc: 'High-shine chip-resistant gel polish with UV curing lasting up to 4+ weeks.' },
-        { name: 'Acrylic Tip Extensions', tag: 'Full Set', desc: 'Custom shaped and sized extensions in coffin, almond, square, and stiletto silhouettes.' },
-        { name: 'Certified Nail Art Course', tag: 'Academy Training', desc: 'Complete hands-on certification training taught by Swetha D for aspiring artists.' }
-      ]
-    },
 
+  services: [
     {
       id: 'makeup',
-      name: 'Makeup Artistry',
-      badge: 'HD & Waterproof',
-      description: 'Flawless HD & waterproof bridal, groom, and event makeovers tailored to accentuate your natural elegance.',
-      image: 'https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=800&q=80',
-      items: [
-        { name: 'Bride Makeover', tag: 'Signature Bridal', desc: 'Regal Muhurtham & Reception bridal glow with premium waterproof, HD cosmetics & long-lasting base.' },
-        { name: 'Groom Makeover', tag: 'Trending', desc: 'Sophisticated, subtle grooming, skin enhancement, beard styling, and camera-ready natural finish.' },
-        { name: 'Party Makeover', tag: 'Event Special', desc: 'Stunning glam for sangeet, cocktail, anniversary, and family celebrations.' },
-        { name: 'Glam Look', tag: 'High Fashion', desc: 'High-fashion contoured looks with dramatic eye artistry, shimmer highlights, and bold lips.' },
-        { name: 'Simple Makeover', tag: 'Dewy Finish', desc: 'Light, dewy, everyday-glow makeover perfect for intimate functions and puja ceremonies.' },
-        { name: 'Baby Shower (Seemantham)', tag: 'Radiant Mom', desc: 'Graceful, radiant and comfortable makeover designed especially for moms-to-be.' },
-        { name: 'Puberty Makeover (Half Saree)', tag: 'Milestone', desc: 'Traditional Rithu Shuddhi / Half Saree makeover enhancing youthful charm and regal innocence.' },
-        { name: 'Mehendi Makeover', tag: 'Festive & Fun', desc: 'Playful, colorful, and smudge-resistant vibrant look for the energetic Mehendi night.' },
-        { name: 'Haldi Makeover', tag: 'Water-Resistant', desc: 'Water-resistant, fresh and luminous yellow-palette glow that shines through haldi rituals.' }
+      name: 'Make-up Artist',
+      icon: 'fa-wand-magic-sparkles',
+      description: 'Professional high-definition & waterproof makeup tailored for bridal, groom, and festive occasions.',
+      subServices: [
+        { name: 'Party Makeover', desc: 'Elegant and glamorous look for guest attendees, cocktail parties, and receptions.' },
+        { name: 'Bride Makeover', desc: 'Comprehensive Muhurtham and Reception bridal looks with HD waterproof base and jewelry setting.' },
+        { name: 'Groom Makeover', desc: 'Subtle skin correction, beard grooming, and camera-ready polished finishing.' },
+        { name: 'Glam Look', desc: 'Bold eyes, contoured finish, and high-impact radiance for stage and spotlight.' },
+        { name: 'Simple Makeover', desc: 'Understated, natural dewy glow ideal for pujas and intimate gatherings.' },
+        { name: 'Baby Shower (Seemantham)', desc: 'Radiant maternal glow styling designed for ceremony comfort and photos.' },
+        { name: 'Puberty (Half Saree) Makeover', desc: 'Youthful traditional makeover with age-appropriate grace and radiance.' },
+        { name: 'Mehandi Makeover', desc: 'Vibrant, playful styling that withstands hours of mehandi festivities.' },
+        { name: 'Haldi Makeover', desc: 'Smudge-resistant, fresh dewy finish complementing bright yellow and floral attire.' }
       ]
     },
     {
-      id: 'hairstyling',
-      name: 'Hairstyling',
-      badge: 'Classic to Modern',
-      description: 'Artistic bridal updos, romantic curls, traditional jada designs, and modern fusion styling.',
-      image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=80',
-      items: [
-        { name: 'Muhurtham Hairstyle', tag: 'Bridal Jada', desc: 'Traditional South Indian poolajada, veni flower settings, and temple jewelry embellishments.' },
-        { name: 'Waterfall Hairstyle', tag: 'Cascading Romance', desc: 'Delicate cascading waterfall braid adorned with baby\'s breath and pearl pins.' },
-        { name: 'Messy Hairstyle', tag: 'Modern Chic', desc: 'Textured messy high or low bun with floral accents for sangeet and engagement.' },
-        { name: 'Bun Hairstyle', tag: 'Timeless Royal', desc: 'Sleek low bun, donut bun, or royal textured rose bun crafted to stay secure for hours.' },
-        { name: 'Bollywood Curls', tag: 'Bouncy Glam', desc: 'Bouncy, voluminous soft waves and Hollywood curls with flexible all-day hold.' },
-        { name: 'Fishtail Braid', tag: 'Bohemian Fusion', desc: 'Detailed Bohemian or traditional fishtail braid interlaced with gypsophila or pearls.' }
+      id: 'hair',
+      name: 'Hair Stylist',
+      icon: 'fa-scissors',
+      description: 'Artistic bridal hair designing, traditional poola jada setting, and modern party textures.',
+      subServices: [
+        { name: 'Muhurtam Hairstyle', desc: 'Classic long South Indian bridal plait styled with poola jada, veni, and jadabillalu.' },
+        { name: 'Waterfall Hairstyle', desc: 'Cascading open hair with delicate woven twists and subtle floral accents.' },
+        { name: 'Messy Hairstyle', desc: 'Textured romantic updos and messy braids perfect for sangeet and engagement.' },
+        { name: 'Bun Hairstyle', desc: 'Structured high and low chignons dressed with fresh roses, gypsophila, or crystal pins.' },
+        { name: 'Bollywood Curls', desc: 'Lustrous, voluminous Hollywood and Bollywood inspired blowout waves.' },
+        { name: 'Fishtail Braid', desc: 'Intricately woven modern fishtail plait with baby breath and pearl embellishments.' }
       ]
     },
     {
-      id: 'box-folding',
-      name: 'Saree Box Folding & Pre-Pleating',
-      badge: 'Ready in 3 Mins',
-      description: 'Get draped in under 3 minutes! Steam-pressed, pin-perfect pre-pleating ready for instant wear.',
-      image: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80',
-      items: [
-        { name: 'Simple Box Folding', tag: 'Everyday Silk', desc: 'Precision border and pleat setting delivered in ready-to-wear compact box pack.' },
-        { name: 'Special Pleating (13 Pleats)', tag: 'Swetha\'s Signature', desc: 'Ultra-sleek, razor-sharp 13-pleat perfection that flatters every silhouette without bulk.' },
-        { name: 'Fluffy / Puffy Pleats', tag: 'Designer Touch', desc: 'Artisan puff pleats ideal for organza, tissue, designer georgettes, and kanjeevarams.' },
-        { name: 'Hanger Folding', tag: 'Wrinkle-Free', desc: 'Steam ironed and mounted on specialty hangers for effortless transport to your wedding venue.' }
+      id: 'saree-folding',
+      name: 'Saree Box Folding',
+      icon: 'fa-box-archive',
+      description: 'Professional pre-pleating and compact box folding for wrinkle-free storage and effortless draping in under 2 minutes.',
+      subServices: [
+        { name: 'Simple Box Folding', desc: 'Standard uniform pleating and compact folding, ideal for trousseau packing.' },
+        { name: 'Special Pleating (13 Pleats Signature)', desc: 'Expert 13-pleat precision setting for a sculpted, ultra-slender drape.' },
+        { name: 'Fluffy Pleats (Pluffy Plates)', desc: 'Voluminous cascading pleat styling that enhances rich kanjivaram borders.' },
+        { name: 'Hanger Folding', desc: 'Pre-steamed and crease-free hanging setup, ready to step into on event morning.' }
       ]
     },
     {
-      id: 'saree-draping',
-      name: 'Saree Draping Artistry',
-      badge: 'Heritage & Modern',
-      description: 'Flawless drape styles from traditional royal heritage to modern red-carpet silhouettes.',
-      image: 'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80',
-      items: [
-        { name: 'South Indian Traditional Drape', tag: 'Kanjeevaram Classic', desc: 'Classic crisp pallu styling with waist-accentuating pleats for Muhurtham sarees.' },
-        { name: 'Bengali Style', tag: 'Aathpoure Heritage', desc: 'Iconic Aathpoure style with majestic front pallu folds and ornamental key-ring flair.' },
-        { name: 'Marathi / Nauvari Style', tag: 'Royal Maratha', desc: 'Traditional 9-yard dhoti-style draping with rich kashta pleats for effortless mobility.' },
-        { name: 'Half Saree with Two Sarees', tag: 'Grand Royal Drape', desc: 'Lavish dual-saree drape creating a heavy bridal lehenga-saree layered ensemble.' },
-        { name: 'Half Saree with One Saree', tag: 'Classic Langa Voni', desc: 'Skillful single-saree drape converting a traditional silk saree into an authentic half-saree look.' },
-        { name: 'Maharani Dupatta Drape', tag: 'Double Pallu', desc: 'Opulent double-pallu drape paired with an embroidered tissue or net dupatta.' },
-        { name: 'Lehenga Style Drape', tag: 'Fusion Silhouette', desc: 'Cleverly pleats any heavy silk saree to simulate a voluminous bridal lehenga flare.' }
-      ]
-    },
-    {
-      id: 'mehendi',
-      name: 'Mehendi Artistry',
-      badge: '100% Organic Henna',
-      description: '100% natural, deep-staining organic henna with bespoke storytelling motifs, portraits, and intricate jaals.',
-      image: 'https://images.unsplash.com/photo-1595152772835-219674b2a8a6?auto=format&fit=crop&w=800&q=80',
-      items: [
-        { name: 'Bridal Mehendi', tag: 'Bespoke Art', desc: 'Intricate bridal story motifs, bride-groom portraits, musical instruments, and traditional kalash.' },
-        { name: 'Groom Mehendi', tag: 'Minimalist', desc: 'Subtle, refined groom crests, initials, sacred mantras, or minimal geometric wristbands.' },
-        { name: 'Engagement Mehendi', tag: 'Semi-Bridal', desc: 'Sophisticated lotus jaals, mandalas, and wrist cuffs tailored for the ring ceremony.' },
-        { name: 'Baby Shower Mehendi', tag: 'Blessed Silhouettes', desc: 'Adorable baby cradle motifs, mother-child silhouettes, and blessed floral motifs.' },
-        { name: 'Arabic Mehendi', tag: 'Bold Flowers', desc: 'Flowing floral vine compositions with high-contrast shaded leaves and modern negative space.' },
-        { name: 'Simple Designs', tag: 'Quick Charm', desc: 'Quick, charming mandalas and bail motifs for bridesmaids, sisters, and guests.' },
-        { name: 'Full Intricate Design', tag: 'Full Hands & Feet', desc: 'Exquisite dense coverage up to the elbows and feet featuring royal Rajasthani and Marwari jaal work.' }
+      id: 'mehandi',
+      name: 'Mehandi Art',
+      icon: 'fa-hand-sparkles',
+      description: 'Handcrafted henna application using 100% natural, chemical-free henna paste with guaranteed deep rich stain.',
+      subServices: [
+        { name: 'Simple Designs', desc: 'Graceful mandalas, delicate bel vines, and modern minimalist patterns.' },
+        { name: 'Bridal Mehandi', desc: 'Elaborate bridal storytelling designs with portraits, doli, baraat, and couple initials.' },
+        { name: 'Groom Mehandi', desc: 'Sophisticated cuff designs, minimalist geometric wrist bands, and hidden bride names.' },
+        { name: 'Engagement Mehandi', desc: 'Chic half-hand or wrist-length patterns tailored for engagement rings display.' },
+        { name: 'Baby Shower Mehandi', desc: 'Thematic motifs depicting cradles, baby footprints, and maternal blessings.' },
+        { name: 'Arabic Mehandi', desc: 'Bold shading, negative space flow, and distinct diagonal floral bands.' },
+        { name: 'Full Design (Both Hands & Feet)', desc: 'Dense, intricate coverage from elbows to fingertips and feet for traditional brides.' }
       ]
     },
     {
       id: 'marriage-pots',
-      name: 'Traditional Marriage Pots & Wedding Crafts',
-      badge: 'Handcrafted Heritage',
-      description: 'Handcrafted, sacred Telugu wedding pots and ceremonial essentials adorned with traditional paintings & radiant kundan stones.',
-      image: 'https://images.unsplash.com/photo-1582738411706-bfc8e691d1c2?auto=format&fit=crop&w=800&q=80',
-      items: [
-        {
-          name: 'Irandla Kundalu',
-          count: 2,
-          options: ['Traditional Painting', 'Kundan Work'],
-          desc: 'Set of 2 sacred pots symbolizing household prosperity, hand-painted with auspicious wedding deities or lavish kundan embellishments.'
+      name: 'Marriage Pots (Pelli Kundalu)',
+      icon: 'fa-paint-brush',
+      description: 'Handcrafted ceremonial Telugu wedding pottery, decorated with traditional temple artwork or sparkling kundan crystals.',
+      subServices: [
+        { 
+          name: 'Irandla Kundalu', 
+          count: 2, 
+          styles: ['Traditional Painting (Ganesha/Lakshmi/Peacock)', 'Royal Kundan & Zari Work'],
+          desc: 'Set of 2 sacred ceremonial pots essential for traditional Telugu Muhurtham rituals.'
         },
-        {
-          name: 'Kurada Kundalu',
-          count: 2,
-          options: ['Plain Finish', 'Kundan Work'],
-          desc: 'Pair of 2 customary wedding ritual pots crafted in clean traditional finish or studded with sparkling kundan gems.'
+        { 
+          name: 'Kurada Kundalu', 
+          count: 2, 
+          styles: ['Plain Traditional Polished', 'Kundan Crystal Embellished'],
+          desc: 'Set of 2 ritual pots utilized during holy bath and pre-wedding pujas.'
         },
-        {
-          name: 'Gariga Muntha',
-          count: 1,
-          options: ['Traditional Painting', 'Kundan Work'],
-          desc: 'The sacred centerpiece pot carried by the bride, meticulously hand-crafted in vibrant ceremonial colors or royal stone work.'
+        { 
+          name: 'Gariga Muntha', 
+          count: 1, 
+          styles: ['Traditional Hand Painting', 'Heavy Kundan & Pearl Tassels'],
+          desc: 'The bride’s centerpiece auspicious pot, ceremonially carried during the wedding procession.'
         },
-        {
-          name: 'Kobbari Bondam (Decorated Coconut)',
-          count: 1,
-          options: ['Traditional Painting', 'Kundan Work'],
-          desc: 'Tender coconut custom decorated with bridal portraits, lord ganesha iconography, and kundan beadwork.'
+        { 
+          name: 'Kobbari Bondam', 
+          count: 1, 
+          styles: ['Traditional Sacred Painting', 'Kundan & Velvet Designer Style'],
+          desc: 'Decorated tender coconut for the bride to hold as she enters the wedding mandap.'
         },
-        {
-          name: 'Dry Coconut (Kobbari Kudakalu)',
-          count: 2,
-          options: ['Handcrafted Kundan Design'],
-          desc: 'Pair of 2 dry coconuts adorned with delicate kundan crystals, pearl borders, and gold zari for the sacred Jeelakarra Bellam ritual.'
+        { 
+          name: 'Dry Coconut (Kudukalu)', 
+          count: 2, 
+          styles: ['Intricate Kundan Crystal Pattern'],
+          desc: 'Set of 2 sacred dried coconut halves embellished with fine crystals and golden laces.'
         },
-        {
-          name: 'Polu Muntalu',
-          count: 4,
-          options: ['White Plain Traditional', 'Kundan Work'],
-          desc: 'Set of 4 ceremonial ritual pots in pristine white traditional finish or radiant kundan embellishment.'
-        },
-        {
-          name: 'Gunja Gurigi',
-          count: 1,
-          options: ['Traditional Artisan Handcraft'],
-          desc: 'Essential sacred miniature pot crafted according to ancestral Telugu wedding traditions.'
+        { 
+          name: 'Polumuntalu', 
+          count: 1, 
+          styles: ['Traditional Painting', 'Kundan & Bead Art'],
+          desc: 'Ceremonial pot set used in traditional Telugu wedding feast and post-wedding festivities.'
         }
       ]
-    }
-  ],
-
-  faqs: [
-    {
-      q: 'How early should I book SN Makeovers for my wedding or event?',
-      a: 'For peak Muhurtham dates (especially bridal makeovers and custom marriage pots), we recommend booking 1 to 3 months in advance to secure your preferred date and time slot.'
     },
     {
-      q: 'Does Swetha D travel to the venue or home for makeup and draping?',
-      a: 'Yes! We provide on-location services at your home, hotel suite, or wedding mandapam across Telangana, Andhra Pradesh, and nearby locations.'
-    },
-    {
-      q: 'How does the Saree Box Folding / Pre-Pleating service work?',
-      a: 'You can drop off or courier your sarees 2 to 4 days prior to the event. We steam press, pin-pleat each fold to your exact measurements (including our signature 13-pleats), and deliver them in wrinkle-resistant box packing. On the day of your event, draping takes less than 3 minutes!'
-    },
-    {
-      q: 'Can I customize the colors and designs on Marriage Pots (Pelli Kundalu)?',
-      a: 'Absolutely! You can choose between authentic traditional hand-painting or royal Kundan stone work to match your wedding color theme, saree palette, or mandap decor.'
-    },
-    {
-      q: 'How do I get an exact price quote for my customized package?',
-      a: 'Use our interactive Package Builder on this website to pick your desired services, or click the WhatsApp button to chat directly with Swetha D (+91 84989 19974).'
-    }
-  ],
-
-  testimonials: [
-    {
-      name: 'Sneha Reddy',
-      occasion: 'Bridal Muhurtham & Reception',
-      comment: 'Swetha garu did an unbelievable job for my wedding! The makeup stayed fresh from morning muhurtham until the evening reception. Her 13-pleats saree pre-pleating saved us so much time!',
-      rating: 5
-    },
-    {
-      name: 'Harika Chowdary',
-      occasion: 'Pelli Kundalu & Saree Draping',
-      comment: 'The Gariga Muntha and Irandla Kundalu with Kundan work were the talk of our wedding mandapam! Everyone asked where we got them. Beautiful craft and prompt delivery.',
-      rating: 5
-    },
-    {
-      name: 'Anusha Varma',
-      occasion: 'Engagement & Haldi Makeover',
-      comment: 'Swetha\'s eye makeup and Bollywood curls gave me the exact chic look I dreamed of for my engagement. Very hygienic, gentle, and patient artist!',
-      rating: 5
+      id: 'saree-draping',
+      name: 'Saree Draping',
+      icon: 'fa-person-dress',
+      description: 'Flawless styling of Kanjivaram, Pattu, Banarasi, and contemporary sarees with secure tucking and sculpted silhouettes.',
+      subServices: [
+        { name: 'Classic South Indian Bridal Drape', desc: 'Sculpted pallu and tight pleats engineered to stay secure through lengthy ceremonies.' },
+        { name: 'Nauvari & Traditional Drapes', desc: 'Regional heritage drapery styles styled with grace and authenticity.' },
+        { name: 'Modern Mermaid & Dhoti Saree', desc: 'Fashion-forward silhouettes for cocktail parties, sangeets, and photo-shoots.' }
+      ]
     }
   ]
 };
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = SN_DATA;
+}
