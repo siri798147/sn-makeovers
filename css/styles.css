@@ -1,0 +1,199 @@
+﻿/* SN MAKEOVERS - Luxury Styling */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap');
+
+:root {
+  --primary-deep: #4A0E17;
+  --primary-wine: #33070E;
+  --accent-gold: #D4AF37;
+  --accent-gold-light: #F6E6B2;
+  --accent-gold-dark: #A27C17;
+  --bg-cream: #FDFBF7;
+  --bg-silk: #F8F3ED;
+  --bg-rose: #FCF4F2;
+  --text-dark: #1E1E1E;
+  --text-muted: #5C5254;
+  --border-gold: rgba(212, 175, 55, 0.35);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: var(--bg-cream);
+  color: var(--text-dark);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, .font-serif-luxury {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-cormorant {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/* Gold Gradient Text */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #C5A059 0%, #F5E7B2 45%, #D4AF37 75%, #9E7422 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wine-gradient-bg {
+  background: linear-gradient(135deg, #4A0E17 0%, #2A040A 100%);
+}
+
+.gold-border {
+  border: 1px solid var(--border-gold);
+}
+
+.gold-border-shine {
+  position: relative;
+  border: 1px solid var(--border-gold);
+  transition: all 0.3s ease;
+}
+
+.gold-border-shine:hover {
+  border-color: rgba(212, 175, 55, 0.8);
+  box-shadow: 0 10px 30px rgba(212, 175, 55, 0.15);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F3ED;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4973B;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8A2846;
+}
+
+/* Subtle Shimmer Animation */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.shimmer-btn {
+  background: linear-gradient(90deg, #D4AF37 0%, #FFF3B0 50%, #D4AF37 100%);
+  background-size: 200% 100%;
+  animation: shimmer 3.5s infinite linear;
+  color: #33070E;
+  font-weight: 700;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.shimmer-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(212, 175, 55, 0.4);
+}
+
+/* Pulse for WhatsApp floating */
+@keyframes gentle-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.06); }
+}
+
+.pulse-animation {
+  animation: gentle-pulse 2.5s infinite ease-in-out;
+}
+
+/* Service Tab active indicator */
+.tab-btn.active {
+  background: #4A0E17;
+  color: #F8E7B9;
+  border-color: #D4AF37;
+  box-shadow: 0 4px 15px rgba(74, 14, 23, 0.25);
+}
+
+/* Checkbox luxury styling */
+.custom-checkbox input[type= checkbox] {
+  appearance: none;
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 1.5px solid #C5A059;
+  border-radius: 0.375rem;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  background-color: #FFFFFF;
+  transition: all 0.2s ease;
+  vertical-align: middle;
+}
+
+.custom-checkbox input[type=checkbox]:checked {
+  background-color: #4A0E17;
+  border-color: #D4AF37;
+}
+
+.custom-checkbox input[type=checkbox]:checked::after {
+  content: '✓';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #F8E7B9;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* Luxury card glass */
+.luxury-card {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  border-radius: 1rem;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxury-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(212, 175, 55, 0.65);
+  box-shadow: 0 15px 35px rgba(74, 14, 23, 0.08);
+}
+
+/* Hero Badge */
+.hero-tag {
+  background: rgba(212, 175, 55, 0.15);
+  border: 1px solid rgba(212, 175, 55, 0.5);
+  color: #D4AF37;
+}
+
+/* Mobile sticky action bar */
+.sticky-bottom-bar {
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Glass navigation header */
+.glass-nav {
+  background: rgba(74, 14, 23, 0.95);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+/* Decorative border divider */
+.ornament-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.ornament-divider::before,
+.ornament-divider::after {
+  content: '';
+  height: 1px;
+  width: 60px;
+  background: linear-gradient(90deg, transparent, #D4AF37, transparent);
+}
