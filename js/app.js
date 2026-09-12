@@ -294,8 +294,7 @@ window.selectAndGoToPackage = function(categoryName, serviceName) {
   }
 };
 
-
-// 6. Video Gallery & Modal Player Logic
+// 6. Video & Reels Gallery Filtering
 function initVideoGallery() {
   const filterBtns = document.querySelectorAll('.video-filter-btn');
   const videoCards = document.querySelectorAll('.video-card-item');
@@ -312,61 +311,11 @@ function initVideoGallery() {
       const filter = btn.getAttribute('data-filter');
       videoCards.forEach(card => {
         if (filter === 'all' || card.getAttribute('data-category') === filter) {
-          card.style.display = 'block';
+          card.style.display = 'flex';
         } else {
           card.style.display = 'none';
         }
       });
     });
   });
-
-  // Modal close handlers
-  const modal = document.getElementById('video-modal');
-  const closeBtn = document.getElementById('close-video-modal');
-  const modalBackdrop = document.getElementById('video-modal-backdrop');
-
-  if (closeBtn) closeBtn.addEventListener('click', closeVideoModal);
-  if (modalBackdrop) modalBackdrop.addEventListener('click', closeVideoModal);
-
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') closeVideoModal();
-  });
 }
-
-window.openVideoModal = function(videoSrc, title, caption, category) {
-  const modal = document.getElementById('video-modal');
-  const videoPlayer = document.getElementById('modal-video-player');
-  const titleEl = document.getElementById('modal-video-title');
-  const descEl = document.getElementById('modal-video-desc');
-  const badgeEl = document.getElementById('modal-video-badge');
-  const waBtn = document.getElementById('modal-video-whatsapp');
-
-  if (!modal || !videoPlayer) return;
-
-  videoPlayer.src = videoSrc;
-  if (titleEl) titleEl.textContent = title;
-  if (descEl) descEl.textContent = caption;
-  if (badgeEl) badgeEl.textContent = category;
-
-  if (waBtn) {
-    const text = encodeURIComponent('Hello Swetha garu, I saw the video "' + title + '" on your website and would like to inquire about booking/ordering!');
-    waBtn.href = 'https://wa.me/918498919974?text=' + text;
-  }
-
-  modal.classList.remove('hidden');
-  document.body.style.overflow = 'hidden';
-  videoPlayer.play().catch(() => {});
-};
-
-window.closeVideoModal = function() {
-  const modal = document.getElementById('video-modal');
-  const videoPlayer = document.getElementById('modal-video-player');
-
-  if (videoPlayer) {
-    videoPlayer.pause();
-    videoPlayer.src = '';
-  }
-
-  if (modal) modal.classList.add('hidden');
-  document.body.style.overflow = '';
-};
